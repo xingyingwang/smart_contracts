@@ -127,7 +127,7 @@ The group project is the development and presentation of a smart contract.
 
 # Syllabus overview, and material covered 
 
-A outline of the chronological structure of the module follows:
+### A outline of the chronological structure of the module follows:
 
 - Introduction to the general area of smart contracts, including Blockchain and DLT
 - Backgrounding of concepts used in the module, such as Binary, Hexadecimal, Hash Functions and Public Key Crypto
@@ -142,7 +142,7 @@ A outline of the chronological structure of the module follows:
 - In person group presentation with questions and feedback
 - Exam
 
-We will cover the topics:
+### We will cover the topics:
 - What are smart contracts?
 - How do smart contracts compare to ordinary computer programs?
 - Where do smart contracts live?
@@ -159,7 +159,7 @@ We will cover the topics:
 
 # Background reading and other related material
 ### Primary reading material for the module is as follows
-1. Bitcoin and Cryptocurrency Technologies - A Comprehensive Introduction. by Arvind Narayanan, Joseph Bonneau, Edward W. Felten, Andrew Miller and Steven Goldfeder. ISBN = 978-0-691-17169-2. Available online here: https://bitcoinbook.cs.princeton.edu/ including video lectures and a pre-publication draft
+1. Bitcoin and Cryptocurrency Technologies - A Comprehensive Introduction. by Arvind Narayanan, Joseph Bonneau, Edward W. Felten, Andrew Miller and Steven Goldfeder. ISBN = 978-0-691-17169-2. Available online here: https://bitcoinbook.cs.princeton.edu/ including video lectures and a pre-publication draft.
 2. Bitcoin: A peer-to-peer electronic cash system. by Satoshi Nakamoto. Available online here: https://www.debr.io/article/21260.pdf and here: https://www.ussc.gov/sites/default/files/pdf/training/annual-national-training-seminar/2018/Emerging_Tech_Bitcoin_Crypto.pdf 
 3. Mastering Ethereum. by Andreas M. Antonopoulos and Gavin Wood. Available here: https://github.com/ethereumbook/ethereumbook
 
