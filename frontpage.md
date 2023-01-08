@@ -5,8 +5,8 @@ Timetable, updated periodically, is only available via the ELE page: <a href="ht
 
 
 ## Navigation
-- Module Information
-- Assessment Information
+- [Module Information ](#module-information)
+- [Assessment Information ](#assessment-information)
 -  <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> Timetable (on ELE) </a> 
 - [Week 1](#week-1)
 - [Week 2](#week-2)
@@ -19,15 +19,6 @@ Timetable, updated periodically, is only available via the ELE page: <a href="ht
 - [Week 9](#week-9)
 - [Week 10](#week-10)
 - [Week 11](#week-11)
-
-
-
-
-
-[Link to Header](#week-1)
-
-
-
 
 ## Module Information
 <a href="https://github.com/ca-carr/smart_contracts/blob/main/module_information.md">Link to Header</a>
