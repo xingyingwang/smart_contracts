@@ -5,7 +5,9 @@ Timetable, updated periodically, is only available via the ELE page: <a href="ht
 
 
 ## Navigation
-
+- Module Information
+- Assessment Information
+-  <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> Timetable (on ELE) </a> 
 - Week 1
 - Week 2
 - Week 3
