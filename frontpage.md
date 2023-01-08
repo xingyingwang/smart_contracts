@@ -1,7 +1,7 @@
 # Welcome to the front page for BEEM161 Smart Contracts
 
 Student ELE page can be found here: https://vle.exeter.ac.uk/course/view.php?id=14438 
-Timetable, updated periodically, is only available via the ELE page: here
+Timetable, updated periodically, is only available via the ELE page: <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> here </a>.
 
 Module Information
 <a href="https://github.com/ca-carr/smart_contracts/blob/main/module_information.md">Link to Header</a>
