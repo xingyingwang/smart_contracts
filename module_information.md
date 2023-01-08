@@ -1,7 +1,6 @@
 # Smart Contracts (BEEM161) Module Introduction
-| | |
-| --- | --- |
 | Module Title:  | Smart Contracts | 
+| --- | --- |
 | Module code:   | BEEM161 | 
 | Module level:	 | M |
 | Academic year: |	2022/3 |
