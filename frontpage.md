@@ -4,7 +4,7 @@ Student ELE page can be found here: https://vle.exeter.ac.uk/course/view.php?id=
 Timetable, updated periodically, is only available via the ELE page: here
 
 Module Information
-<a href="../module_information.md">Link to Header</a>
+<a href="https://github.com/ca-carr/smart_contracts/blob/main/module_information.md">Link to Header</a>
 
 Assessment Information
 
