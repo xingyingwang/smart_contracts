@@ -56,7 +56,7 @@ The contact hours are split as follows:
 For the 129 independent study hours, you are expected to complete the homework **TASKS** set in lectures and tutorials, in addition to the time you should set aside for exam revision and group project work. 
 
 ## Guest lectures
-This module will have some guest lectures, both in person and online. In the event that a lecture is online, information will be provided in advance. 
+This module will have guest lectures, both in person and online. In the event that a lecture is online, information will be provided in advance. Guest lectures are announced on the <a href="https://vle.exeter.ac.uk/course/view.php?id=14438" >Timetable accesable via ELE. </a>
 	
 ## Online provision
 The module is run on a face-to-face basis, and there is **no available provision** for online learners. However, in order to make it as easy for the students as possible, lecture notes, and recordings are made available online after the lecture. Material for the tutorial is also available, however tutorials are not recorded for student privacy reasons. \
