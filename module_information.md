@@ -64,7 +64,7 @@ There may be occasions where the tutorials or lectures are online, instead of in
 	
 ## Recordings
 - Lectures are recorded and made available after the lecture 
-- Tutorial sessions are not recorded
+- Tutorial sessions are **not** recorded
 	
 ## Lectures
 Lectures consist of a mix of lecture and note taking, questions and task to complete. They are interactive. Please bring your laptops to lectures, and ensure you sit close enough to hear and join in with the session.
@@ -76,7 +76,10 @@ Tutorials are hands on and practical, including designing, coding and creating s
 ## Tools
 We will mostly be using REMIX-IDE, and online Integrated Development Environment, designed for the smart contract language Solidity. Solidity is used in Ethereum for creating smart contracts. We will be using other tools, such as AWS, Alchemy, Hardhat to name a few. These will be explained when we come to use them. 
 
-# Assessment
+# Assessment overview
+
+In depth assessment details are described in the assessment section <a href="/assessment_information.md"> here </a>
+
 The assessment, both formative and summative assesses all ILOs as described above. 
 
 ### Formative assessment
