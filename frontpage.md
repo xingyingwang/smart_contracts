@@ -2,7 +2,7 @@
 
 Welcome to the BEEM1161 Smart Contracts module page. This page contains all information for the module, including slides, tasks, assessment, references and links to the ELE pages where necessary. 
 
-The Exeter student ELE page can be found here: <a href="https://vle.exeter.ac.uk/course/view.php?id=14438" BEEM161 ELE Page. </a> 
+The Exeter student ELE page can be found here: <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> BEEM161 ELE Page. </a> 
 
 The **Timetable**, updated periodically, is only available via the ELE page: <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> here. </a>
 
