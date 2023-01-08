@@ -78,7 +78,7 @@ We will mostly be using REMIX-IDE, and online Integrated Development Environment
 
 # Assessment overview
 
-In depth assessment details are described in the assessment section <a href="/assessment_information.md"> here </a>
+In depth assessment details are described in the assessment section <a href="/assessment_information.md"> here. </a>
 
 The assessment, both formative and summative assesses all ILOs as described above. 
 
