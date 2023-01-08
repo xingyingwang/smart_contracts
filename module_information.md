@@ -1,4 +1,4 @@
-# [Smart Contracts (BEEM161) Module Introduction](/)
+# [Smart Contracts (BEEM161) Module Introduction](/frontpage.md)
 |  |  | 
 | --- | --- |
 | Module Title:  | Smart Contracts | 
