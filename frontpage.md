@@ -9,8 +9,8 @@ The _Timetable_, updated periodically, is only available via the ELE page: <a hr
 
 
 ## Navigation
-- [Module Information ](/module-information.md)
-- [Assessment Information ](#assessment-information)
+- [Module Information ](/module_information.md)
+- [Assessment Information ](/assessment_information)
 -  <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> Timetable (on ELE) </a> 
 - [Week 1](#week-1)
 - [Week 2](#week-2)
