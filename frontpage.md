@@ -4,13 +4,13 @@ Welcome to the BEEM1161 Smart Contracts module page. This page contains all info
 
 The Exeter student ELE page can be found here: <a href="https://vle.exeter.ac.uk/course/view.php?id=14438" BEEM161 ELE Page. </a> 
 
-The _Timetable_, updated periodically, is only available via the ELE page: <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> here. </a>
+The **Timetable**, updated periodically, is only available via the ELE page: <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> here. </a>
 
 
 
 ## Navigation
 - [Module Information ](/module_information.md)
-- [Assessment Information ](/assessment_information)
+- [Assessment Information ](/assessment_information.md)
 -  <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> Timetable (on ELE) </a> 
 - [Week 1](#week-1)
 - [Week 2](#week-2)
@@ -23,11 +23,6 @@ The _Timetable_, updated periodically, is only available via the ELE page: <a hr
 - [Week 9](#week-9)
 - [Week 10](#week-10)
 - [Week 11](#week-11)
-
-## Module Information
-<a href="https://github.com/ca-carr/smart_contracts/blob/main/module_information.md">Link to Header</a>
-
-## Assessment Information
 
 ## Week 1
 Not yet available 
