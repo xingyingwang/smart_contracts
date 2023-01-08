@@ -1,5 +1,4 @@
 # Assessment information
-
 The assessment, both formative and summative assesses all ILOs as described above. 
 
 ### Formative assessment
@@ -51,6 +50,11 @@ The group project is the development and presentation of a smart contract.
 - Those who have not found a group by the end of Week 4 (Friday 10 Feb) will be assigned a group by the module leader
 - Groups smaller than 6 may have members added to them at the discretion of the module leader
 
+### Group project description
+Announced in Lecture 4, Week 4 (Monday 6 Feb), and available here after that date
+
+### Marking criteria and feedback
+Announced in Lecture 4, Week 4, (Monday 6 Feb), and available here after that date
 
 
 
