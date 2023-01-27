@@ -1,8 +1,11 @@
 ## Hash function task
 
-Given the following the messages, (text taken from the works of A. Conan Doyle):
+Take a look at the following five messages, A, B, C, D and E (text taken from the works of A. Conan Doyle).
+
+
   
-```
+
+A) ```
  “You did, Doctor, but none the less you must come round to my view, 
  for otherwise I shall keep on piling fact upon fact on you until your
  reason breaks down under them and acknowledges me to be right. Now, 
