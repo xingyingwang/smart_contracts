@@ -1,13 +1,13 @@
-## Hash function task
+## Hash functions
 
 Take a look at the following five text samples, A, B, C, D and E (taken from the works of A. Conan Doyle).
 
 These texts may have been altered or manipulated, and our job is to discern the legitimate texts from the altered ones. Fortunately, to aid our task, we have the hash output (or message-digest) from one of the texts, and a partial hash output for another.
 
 The hash output from one text is the SHA-256 digest: `a4a2f8a5 fb46f363 836a52d2 18711aa9 8b474bb9 0a6d756c 191b453e 2f63a027` \
-From anotehr text we have the partial digest: `154f7e42`, which is the last 4 bytes of the SHA-256 hash function applied to the original text.
+From another text we have the partial digest: `154f7e42`, which is the last 4 bytes of the SHA-256 hash function applied to the original text.
 
-_Task_ 
+### Task 
 Using the online tool: <a href="https://cryptii.com/"> cryptii</a>, identify all of the legitimate texts and all the illegitimate ones.
 
 Try to answer the questions: How can we be sure of the legitimacy? What is the purpose of the hash function in tis case? What might we call a partial digest, and can we comment on its security? Where have the identified illegitimate texts been changed?
