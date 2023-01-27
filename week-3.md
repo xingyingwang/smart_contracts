@@ -5,12 +5,12 @@ Take a look at the following five text samples, A, B, C, D and E (taken from the
 These texts may have been altered or manipulated, and our job is to discern the legitimate texts from the altered ones. Fortunately, to aid our task, we have the hash output (or message-digest) from one of the texts, and a partial hash output for another.
 
 The hash output from one text is the SHA-256 digest: `a4a2f8a5 fb46f363 836a52d2 18711aa9 8b474bb9 0a6d756c 191b453e 2f63a027` \
-From anotehr text we have the partial SHA-256 digest: ...
+From anotehr text we have the partial digest: `154f7e42`, which is the last 4 bytes of the SHA-256 hash function applied to the original text.
 
 _Task_ 
 Using the online tool: <a href="https://cryptii.com/"> cryptii</a>, identify all of the legitimate texts and all the illegitimate ones.
 
-Try to answer the questions: How can we be sure of the legitimacy? What is the purpose of the hash function in tis case? Where have the identified texts been changed?
+Try to answer the questions: How can we be sure of the legitimacy? What is the purpose of the hash function in tis case? What might we call a partial digest, and can we comment on its security? Where have the identified illegitimate texts been changed?
 
 A)
 ```
@@ -33,7 +33,7 @@ the house was none other than the opium den in which you found me to-night—and
 running through the front room she attempted to ascend the stairs which led
 to the first floor. At the foot of the stairs, however, she met this Lascar
 scoundrel of whom I have spoken, who thrust her back and, aided by a Dane,
-who acts as assistant there, pushed her out into the street. Filled with the
+who acts as assistant there, pushed her out into the street! Filled with the
 most maddening doubts and fears, she rushed down the lane and, by rare 
 good-fortune, met in Fresno Street a number of constables with an inspector,
 all on their way to their beat. The inspector and two men accompanied her 
