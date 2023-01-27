@@ -8,7 +8,8 @@ The hash output from one text is the SHA-256 digest: `a4a2f8a5 fb46f363 836a52d2
 From another text we have the partial digest: `154f7e42`, which is the last 4 bytes of the SHA-256 hash function applied to the original text.
 
 ### Task 
-Using the online tool: <a href="https://cryptii.com/"> cryptii</a>, identify all of the legitimate texts and all the illegitimate ones.
+Using the online tool <a href="https://cryptii.com/"> cryptii</a>, identify all of the legitimate texts and all the illegitimate ones.
+> Make sure to calibrate cryptii to take text input, apply the correct hash function, and produce hexadecimal output
 
 Try to answer the questions: How can we be sure of the legitimacy? What is the purpose of the hash function in tis case? What might we call a partial digest, and can we comment on its security? Where have the identified illegitimate texts been changed?
 
