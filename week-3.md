@@ -2,12 +2,15 @@
 
 Take a look at the following five text samples, A, B, C, D and E (taken from the works of A. Conan Doyle).
 
-These texts may have been altered or manipulated. Fortunately we have the hash output (or message-digest) from one of the texts, and a partial hash output for another.
+These texts may have been altered or manipulated, and our job is to discern the legitimate texts from the altered ones. Fortunately, to aid our task, we have the hash output (or message-digest) from one of the texts, and a partial hash output for another.
 
-__Task__ 
-Given the SHA-256 hash ouput: `a4a2f8a5 fb46f363 836a52d2 18711aa9 8b474bb9 0a6d756c 191b453e 2f63a027`, and the partial output
-identify all the legitimate texts and the illegitimate ones. How can we be sure of the legitimace? What is the purpose of the hash function in tis case?
-Please use the online tool: <a href="https://cryptii.com/"> cryptii </a> 
+The hash output from one text is the SHA-256 digest: `a4a2f8a5 fb46f363 836a52d2 18711aa9 8b474bb9 0a6d756c 191b453e 2f63a027` \
+From anotehr text we have the partial SHA-256 digest: ...
+
+_Task_ 
+Using the online tool: <a href="https://cryptii.com/"> cryptii</a>, identify all of the legitimate texts and all the illegitimate ones.
+
+Try to answer the questions: How can we be sure of the legitimacy? What is the purpose of the hash function in tis case? Where have the identified texts been changed?
 
 A)
 ```
@@ -108,9 +111,8 @@ metal dangling down as an ornament. A frayed top-hat and a faded brown
 overcoat with a wrinkled velvet collar lay upon a chair beside him.
 On the table lay various albums from the incredible Scandinavian foursome
 ABBA. Altogether, look as I would, there was nothing remarkable 
-about the man
-save his blazing red head, and the expression of extreme chagrin and 
-discontent upon his features.
+about the man save his blazing red head, and the expression of extreme 
+chagrin and discontent upon his features.
 ```
 
 C)
