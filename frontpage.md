@@ -25,11 +25,11 @@ The **Timetable**, updated periodically, is only available via the ELE page: <a 
 - [Week 11](#week-11)
 
 ## Week 1
-Not yet available 
+Lecture slides available on <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> ELE </a>
 ## Week 2
-Not yet available 
+Lecture slides available on <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> ELE </a>
 ## Week 3
-Not yet available
+
 ## Week 4
 Not yet available 
 ## Week 5
