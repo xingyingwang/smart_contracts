@@ -3,6 +3,8 @@
 Take a look at the following five messages, A, B, C, D and E (text taken from the works of A. Conan Doyle).
 
 
+>> a4a2f8a5 fb46f363 836a52d2 18711aa9 8b474bb9 0a6d756c 191b453e 2f63a027
+
   
 
 A)
