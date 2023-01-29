@@ -292,7 +292,7 @@ discontent upon his features.
 
 We are now going to take a deeper dive into digital signatures and encryption.
 
-## 2.1:
+### 2.1:
 
 Take a look at the shared module document, in Row 2, columns E, F, G, H, I: https://docs.google.com/spreadsheets/d/1LCAhbi894bGQQcT1-xw_WcshNtiXmSF47Ei797kC790/edit#gid=0
 
@@ -306,7 +306,7 @@ Using the software tool Kleopatra from https://gpg4win.org/download.html, or whi
 * 1.D) Try to decrypt the message in column I. What problems do you encounter and why?
 
 
-## 2.2:
+### 2.2:
 
 Now we are going to generate our own key-pair and share it (you will need to work with someone to do this task)
 
