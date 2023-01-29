@@ -29,8 +29,9 @@ The exam is a 2 hour online exam and comprises:
 - A good way to prepare your answer for the long form question is to prepare it in your favourite text editing software and copy-paste in when you have your ready 
 
 ### Exam date and time
-The exam date and time will be announced and here and on ELE, when we have a confirmed date. This is usually after the first few weeks of the module. \
+The exam date and time will be announced and here and on ELE, when the exam date is confirmed. This is usually after the first few weeks of the module. \
 Additional information will also be provided closer to the exam time, such as example exam style questions, how to access the exam, and over what time period it is available to begin. 
+**Exams for the 2023 Spring Semester are usually in May**
 > Note: the examination for this module is online 
 
 ## Group project 
