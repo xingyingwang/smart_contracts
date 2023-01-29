@@ -277,12 +277,11 @@ discontent upon his features.
 ````
 
 ---
-
 ## Part 2 Digital Signatures and Encryption
 
 
----
 
+---
 
 ## Part 3 Smart Contracts in Bitcoin
 This part of the tutorial focuses on Bitcoin smart contracts.
@@ -320,9 +319,10 @@ Here is an example for: 4 2 op_mul
 ### 2:
 
 Consider the fucntion: (5×3) MOD 4 == 3
-2.a) In words, explain what the function does
-2.b) Create a script using opcodes that executes the function.
-2.c) Test your script using the online editor
+2.
+	1. In words, explain what the function does
+	2. Create a script using opcodes that executes the function.
+	3. Test your script using the online editor
 	
 ### 3:
 
