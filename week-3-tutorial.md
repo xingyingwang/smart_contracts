@@ -313,24 +313,24 @@ Example) 4 2 op_mul
 | 3		| 4 2 op_mul	| Added op_mul to stack and exectuted op_mul multiplying 2 by 4 in that order |
 |4		|8		 | Added result of op_mul to stack |
 
-- A)	4 7 3 op_max op_min
-- B) 	4 7 op_mul 5 op_mod 
+A)	4 7 3 op_max op_min
+B) 	4 7 op_mul 5 op_mod 
 
 ### 2:
 
 Consider the fucntion: (5×3) MOD 4 == 3
-* 2.a) In words, explain what the function does
-* 2.b) Create a script using opcodes that executes the function.
-* 2.c) Test your script using the online editor
+2.a) In words, explain what the function does
+2.b) Create a script using opcodes that executes the function.
+2.c) Test your script using the online editor
 	
 ### 3:
 
 Below is a common script you might find in Bitcoin.
 
-* 3.a) What is this kind of script usually called? 
-* 3.b) write down what each text string represents at lines 1, 2 and 5.
-* 3.c) Write down what each function does at lines 3, 4, 6 and 7. 
-* 3.d) What would happen if we changed the // chris: add in a hash check that still returns true
+3.a) What is this kind of script usually called? 
+3.b) write down what each text string represents at lines 1, 2 and 5.
+3.c) Write down what each function does at lines 3, 4, 6 and 7. 
+3.d) What would happen if we changed the // chris: add in a hash check that still returns true
 
 ```
 1. 304402205fc2ccf4a060cf860ad76b5933755f8ad1de54c35977fea56f3c4e0fc743990202204879136e0ad6244
