@@ -313,8 +313,8 @@ Example) 4 2 op_mul
 | 3		| 4 2 op_mul	| Added op_mul to stack and exectuted op_mul multiplying 2 by 4 in that order |
 |4		|8		 | Added result of op_mul to stack |
 
-A)	4 7 3 op_max op_min
-B) 	4 7 op_mul 5 op_mod 
+A.  4 7 3 op_max op_min
+B.  4 7 op_mul 5 op_mod 
 
 ### 2:
 
