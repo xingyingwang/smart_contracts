@@ -8,7 +8,7 @@ This is the first tutorial for the Smart Contract module.
 ---
 ## Part 0: Representing numbers
 
-Complete the table from Week 2
+* 0.A) Complete the table from Week 2
 
 
 | Binary | Hex | Decimal |
@@ -19,6 +19,9 @@ Complete the table from Week 2
 | | | 435   |
 
 
+* 0.B) Using the website block explorer https://blockchair.com/bitcoin/, take a look the latest block in Bitcoin. Select the hex string that is the block's header. Using whatever tools you like, cover this block header to bianry and decimal. 
+
+* 0.C) Do the same for 0.B, as for block number 1 in Bitcoin, using https://blockchair.com/bitcoin/. How do the numbers compare between 0.B and 0.C? Why is this?
 
 ---
 ## Part 1: Hash functions
