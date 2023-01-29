@@ -1,7 +1,7 @@
 # Tutorial 1
 This is the first tutorial for the Smart Contract module.
 - To complete this tutorial, you can consult the first three weeks of lecture material. 
-- You are expected to be able to complete this tutorial on your own, though you may work with people around you.
+- You are expected to be able to complete this tutorial on your own, though you may work with people around you, and in some parts you need to.
 - Aspects of the work we will do in this tutorial are related to the exam assessment.
 - Don't be afraid to ask for help!
 
@@ -289,6 +289,33 @@ discontent upon his features.
 
 ---
 ## Part 2 Digital Signatures and Encryption
+
+We are now going to take a deeper dive into digital signatures and encryption.
+
+## 2.1:
+
+Take a look at the shared module document, in Row 2, columns E, F, G, H, I: https://docs.google.com/spreadsheets/d/1LCAhbi894bGQQcT1-xw_WcshNtiXmSF47Ei797kC790/edit#gid=0
+
+Using the software tool Kleopatra from https://gpg4win.org/download.html, or whichever tool you prefer, complete the following: 
+
+* 1.A) Import the public key
+* 1.B) Check the public key and the fingerprint, what is the process, what is the fingerprint?
+* 1.C) Verify the signatures of the messages in G, and H. 
+  * What does each message say?
+  * Are they both valid messages?
+* 1.D) Try to decrypt the message in column I. What problems do you encounter and why?
+
+
+## 2.2:
+
+Now we are going to generate our own key-pair and share it (you will need to work with someone to do this task)
+
+* 2.A) Generate a key pair
+* 2.B) Export the public key, and share it on the shared module document under column E, and share your key fingerprint under column F https://docs.google.com/spreadsheets/d/1LCAhbi894bGQQcT1-xw_WcshNtiXmSF47Ei797kC790/edit#gid=0
+* 2.C) Sign a message -- it can be anything you want (keep it acceptable!) -- and publish the signed message under column G, have a colleague verify your message
+* 2.D) Encrypt a message to a colleauge of your choice -- it can be anything you want (keep it acceptable!) -- and answer the questions:
+  * What process do you have to take to encrypt the message?
+  * How is this different from the message signature aspect. 
 
 
 
