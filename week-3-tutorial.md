@@ -289,9 +289,9 @@ This part of the tutorial focuses on Bitcoin smart contracts.
 Bitcoin defines a stack based smart contract langauge, that is not turing complete! 
 
 Can you answer the following questions:
-1.1. What is Turing Competeness? 
-1.2. Why is Bitcoin's scripting language not turing complete?
-2.3. Do we realistically expect to have turing completeness in any smart contract platform?
+* 1.1. What is Turing Competeness? 
+* 1.2. Why is Bitcoin's scripting language not turing complete?
+* 2.3. Do we realistically expect to have turing completeness in any smart contract platform?
 	
 
 For the following problems we may wish to make use of the Bitcoin script reference guide: https://en.bitcoin.it/wiki/Script\
