@@ -8,7 +8,15 @@ This is the first tutorial for the Smart Contract module.
 ---
 ## Part 0: Representing numbers
 
-// Bitcoin to binary
+Complete the table from Week 2
+
+
+| Binary | Hex | Decimal |
+| ------ | ----- | ------ |
+| 11111111 |  |   |
+| 11110000 |  |   |
+| | 0xA7 |  | 
+| | | 435   |
 
 
 
@@ -298,7 +306,7 @@ For the following problems we may wish to make use of the Bitcoin script referen
 You should also use the following online graphical editor: https://siminchen.github.io/bitcoinIDE/build/editor.html
 
 
-### 1:
+### 3.1:
 
 Compute the following two prpblems below by hand, and write out the value in the stack at each step. 
 
@@ -316,14 +324,14 @@ Here is an example for: 4 2 op_mul
 * 1.A)  4 7 3 op_max op_min
 * 1.B)  4 7 op_mul 5 op_mod 
 
-### 2:
+### 3.2:
 
 Consider the fucntion: (5×3) MOD 4 == 3
 * 2.A) In words, explain what the function does
 * 2.B) Create a script using opcodes that executes the function.
 * 2.C) Test your script using the online editor
 	
-### 3:
+### 3.3:
 
 The following is a common script you might find in Bitcoin.
 
