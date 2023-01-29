@@ -341,6 +341,6 @@ bcb8275028ae2e4dd1d2b45
 * 3.A) What is this kind of script usually called? 
 * 3.B) write down what each text string represents at lines 1, 2 and 5.
 * 3.C) Write down what each function does at lines 3, 4, 6 and 7. 
-* 3.D) What would happen if we changed line 4 to `0x2CB3A540E8CF726A3D563D7A0F350724FCDB34FC`
+* 3.D) What would happen if we changed line 4 to `2CB3A540E8CF726A3D563D7A0F350724FCDB34FC`
 
 
