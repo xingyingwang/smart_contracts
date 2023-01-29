@@ -288,10 +288,10 @@ This part of the tutorial focuses on Bitcoin smart contracts.
 
 Bitcoin defines a stack based smart contract langauge, that is not turing complete! 
 
-Can you answer the following questions:
-* 1.1. What is Turing Competeness? 
-* 1.2. Why is Bitcoin's scripting language not turing complete?
-* 2.3. Do we realistically expect to have turing completeness in any smart contract platform?
+Note! You should be confident that you can give a reasonable answer the following questions:
+* What is Turing Competeness in simple terms? 
+* Why is Bitcoin's scripting language not turing complete?
+* Do we realistically expect to have turing completeness in any smart contract platform?
 	
 
 For the following problems we may wish to make use of the Bitcoin script reference guide: https://en.bitcoin.it/wiki/Script\
@@ -313,25 +313,24 @@ Here is an example for: 4 2 op_mul
 | 3		| 4 2 op_mul	| Added op_mul to stack and exectuted op_mul multiplying 2 by 4 in that order |
 |4		|8		 | Added result of op_mul to stack |
 
-1.  4 7 3 op_max op_min
-2.  4 7 op_mul 5 op_mod 
+* 1.A)  4 7 3 op_max op_min
+* 1.B)  4 7 op_mul 5 op_mod 
 
 ### 2:
 
 Consider the fucntion: (5×3) MOD 4 == 3
-2.
-	1. In words, explain what the function does
-	2. Create a script using opcodes that executes the function.
-	3. Test your script using the online editor
+* 2.A) In words, explain what the function does
+* 2.B) Create a script using opcodes that executes the function.
+* 2.C) Test your script using the online editor
 	
 ### 3:
 
 Below is a common script you might find in Bitcoin.
 
-3.a) What is this kind of script usually called? 
-3.b) write down what each text string represents at lines 1, 2 and 5.
-3.c) Write down what each function does at lines 3, 4, 6 and 7. 
-3.d) What would happen if we changed the // chris: add in a hash check that still returns true
+* 3.A) What is this kind of script usually called? 
+* 3.B) write down what each text string represents at lines 1, 2 and 5.
+* 3.C) Write down what each function does at lines 3, 4, 6 and 7. 
+* 3.D) What would happen if we changed the // chris: add in a hash check that still returns true
 
 ```
 1. 304402205fc2ccf4a060cf860ad76b5933755f8ad1de54c35977fea56f3c4e0fc743990202204879136e0ad6244
