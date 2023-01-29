@@ -301,9 +301,10 @@ You should also use the following online graphical editor: https://siminchen.git
 
 ### 1:
 
-Compute the following A and B below by hand, and write out the value in the stack at each step.
-Here is an example
-Example) 4 2 op_mul
+Compute the following two prpblems below by hand, and write out the value in the stack at each step. 
+
+
+Here is an example for: 4 2 op_mul
 -------------------------
 | Step	| Stack |	Explanation |
 |-------|-------|---------------|
@@ -313,8 +314,8 @@ Example) 4 2 op_mul
 | 3		| 4 2 op_mul	| Added op_mul to stack and exectuted op_mul multiplying 2 by 4 in that order |
 |4		|8		 | Added result of op_mul to stack |
 
-A.  4 7 3 op_max op_min
-B.  4 7 op_mul 5 op_mod 
+1.  4 7 3 op_max op_min
+2.  4 7 op_mul 5 op_mod 
 
 ### 2:
 
