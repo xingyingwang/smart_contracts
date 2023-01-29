@@ -325,12 +325,7 @@ Consider the fucntion: (5×3) MOD 4 == 3
 	
 ### 3:
 
-Below is a common script you might find in Bitcoin.
-
-* 3.A) What is this kind of script usually called? 
-* 3.B) write down what each text string represents at lines 1, 2 and 5.
-* 3.C) Write down what each function does at lines 3, 4, 6 and 7. 
-* 3.D) What would happen if we changed the // chris: add in a hash check that still returns true
+The following is a common script you might find in Bitcoin.
 
 ```
 1. 304402205fc2ccf4a060cf860ad76b5933755f8ad1de54c35977fea56f3c4e0fc743990202204879136e0ad6244
@@ -342,3 +337,10 @@ bcb8275028ae2e4dd1d2b45
 5. op_equalverify
 6. op_checksig
 ```
+
+* 3.A) What is this kind of script usually called? 
+* 3.B) write down what each text string represents at lines 1, 2 and 5.
+* 3.C) Write down what each function does at lines 3, 4, 6 and 7. 
+* 3.D) What would happen if we changed line 4 to `0x2CB3A540E8CF726A3D563D7A0F350724FCDB34FC`
+
+
