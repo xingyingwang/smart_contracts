@@ -54,6 +54,8 @@ The group project is the development and presentation of a smart contract.
 ### Group project description
 Announced in Lecture 4, Week 4 (Monday 6 Feb), and available here after that date
 
+### Group project goals and milestones
+
 ### Marking criteria and feedback
 Announced in Lecture 4, Week 4, (Monday 6 Feb), and available here after that date
 
