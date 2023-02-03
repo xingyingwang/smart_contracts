@@ -147,14 +147,13 @@ bcb8275028ae2e4dd1d2b45
 P2PKH or Pay to Public Key Hash
 
 > 3.B) write down what each text string represents at lines 1 and 4.
-Line 1 represents the public key, line 4 represents the address
-* 3.C) Write down what each function does at lines 2, 3, 5 and 6. 
-* 3.D) Is this script valid? If not, why not? 
-* 3.E) What would happen if we changed line 4 to `2CB3A540E8CF726A3D563D7A0F350724FCDB34FC`, does the script now execute correctly? If not, why not? 
-
-
-
-
+Line 1 represents the public key, line 4 represents the address.
+> 3.C) Write down what each function does at lines 2, 3, 5 and 6.
+Line 2 duplicates the public key on line 1. Line 3 performs the address generation algorithm on the public key value that is as the top of the stack. Line 5 checks to see if the two items on the top of the stack are equal, and only if so continues the execution of the script. Line 6 takes a signature and a public key as input and returns true only if the signature is a valid signature corresponding to that public key.
+> 3.D) Is this script valid? If not, why not? 
+No, the output of op_hash160 on the public key from Line 1, returns a different output to the one appearing on Line 4. This means that op_equalverify aborts the execution. 
+ > 3.E) What would happen if we changed line 4 to `2CB3A540E8CF726A3D563D7A0F350724FCDB34FC`, does the script now execute correctly? If not, why not?
+It would get past line 5, op_equalverify, as the op_hash160 of the public key  is equal to the address at line 10, however it does not execute as valid. This is because op_checksig needs a signature parameter as well as a public key, and no signature is provided. 
 
 
 
