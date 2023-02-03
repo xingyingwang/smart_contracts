@@ -146,9 +146,9 @@ bcb8275028ae2e4dd1d2b45
 > 3.A) What is this kind of script usually called? 
 P2PKH or Pay to Public Key Hash
 
-> 3.B) write down what each text string represents at lines 1, 2 and 5.
+> 3.B) write down what each text string represents at lines 1 and 4.
 Line 1 represents the public key, line 4 represents the address
-* 3.C) Write down what each function does at lines 3, 4, 6 and 7. 
+* 3.C) Write down what each function does at lines 2, 3, 5 and 6. 
 * 3.D) Is this script valid? If not, why not? 
 * 3.E) What would happen if we changed line 4 to `2CB3A540E8CF726A3D563D7A0F350724FCDB34FC`, does the script now execute correctly? If not, why not? 
 
