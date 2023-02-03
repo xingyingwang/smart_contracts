@@ -37,7 +37,7 @@ From another text we have the partial digest: `154f7e42`, which is the last 4 by
 Using the online tool <a href="https://cryptii.com/"> cryptii</a>, identify all of the legitimate texts and all the illegitimate ones.
 > Make sure to calibrate cryptii to take text input, apply the correct hash function, and produce hexadecimal output
 
-Try to answer the questions: How can we be sure of the legitimacy? What is the purpose of the hash function in tis case? What might we call a partial digest, and can we comment on its security? Where have the identified illegitimate texts been changed?
+Try to answer the questions: How can we be sure of the legitimacy? What is the purpose of the hash function in this case? What might we call a partial digest, and can we comment on its security? Where have the identified illegitimate texts been changed?
 
 A)
 ```
