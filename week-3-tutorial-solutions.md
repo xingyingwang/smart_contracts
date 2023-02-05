@@ -1,4 +1,4 @@
-Updated Monday 6 Feb
+Tutorial solutions provided on Tuesday 7 Feb
 
 
 <!---
@@ -160,7 +160,7 @@ It would get past line 5, op_equalverify, as the op_hash160 of the public key  i
 
 ## Extra
 
-Consider the altered transaction from 3.3, what is this extra information on line 1?
+Consider the altered transaction from 3.3, what is this extra information on Line 1?
 ```
 1. 304402205fc2ccf4a060cf860ad76b5933755f8ad1de54c35977fea56f3c4e0fc743990202204879136e0ad6244
 1be86b9bafa831b622b63d592e859da80e3dd2cea7942256001
