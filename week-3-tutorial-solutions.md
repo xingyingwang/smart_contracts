@@ -155,6 +155,21 @@ No, the output of op_hash160 on the public key from Line 1, returns a different 
  > 3.E) What would happen if we changed line 4 to `2CB3A540E8CF726A3D563D7A0F350724FCDB34FC`, does the script now execute correctly? If not, why not?
 It would get past line 5, op_equalverify, as the op_hash160 of the public key  is equal to the address at line 10, however it does not execute as valid. This is because op_checksig needs a signature parameter as well as a public key, and no signature is provided. 
 
-
-
 --->
+
+
+## Extra
+
+Consider the altered transaction from 3.3, what is this extra information on line 1?
+```
+1. 304402205fc2ccf4a060cf860ad76b5933755f8ad1de54c35977fea56f3c4e0fc743990202204879136e0ad6244
+1be86b9bafa831b622b63d592e859da80e3dd2cea7942256001
+2. 0373a3ee36354282bc8b6bd44ea4d2fcec4270f1d88bcb8275028ae2e4dd1d2b45 
+3. op_dup 
+4. op_hash160
+5. 66E955357C003F18D1669840924B78135784570A
+6. op_equalverify
+7. op_checksig
+```
+
+
