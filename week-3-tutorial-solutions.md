@@ -26,15 +26,20 @@ Try to answer the questions: How can we be sure of the legitimacy? What is the p
 
 What might we call a partial digest, and can we comment on its security? 
 
-
 > Where have the identified illegitimate texts been changed?
 Now that you know which text is the legitimate text, you can find the illegitamate one, by comparing the text in the lines (HINT: a famous Swedish group?)
 
 To answer this question, we can note that A and C are very similar texts, and so are B, D and E. 
-Using Cryptii we can identify that the sha256 hash of C outputs the final four bits '154f7e42', and that E produces the string: `a4a2f8a5 fb46f363 836a52d2 18711aa9 8b474bb9 0a6d756c 191b453e 2f63a027`
+Using Cryptii we can identify that the sha256 hash of C outputs the final four bits '154f7e42', and that E produces the string: `a4a2f8a5 fb46f363 836a52d2 18711aa9 8b474bb9 0a6d756c 191b453e 2f63a027`.
 
+In this case _legitimacy_ is defined on the hashes (message digests) that we are given. Since we know what the hashes are, we can say that any message that produces that hash is legitimate, based on the premise of the question. 
 
-> One of the text contains a sentence about the band ABBA, this di
+Th purpose of the hash function is message integrity. Since we have texts that are very simailair, and hard to distinguish by hand, the hash function allows us to identify a legitimate texts, and illegitamate ones. Even a small change in the text produces a vastly different output, which is easy to recognise, even by human eyes. 
+
+The '154f7e42' is a partial digest, and can sometimes be called integrity check digits, or a checksum. In terms of security, it is not as secure as providing an entire hash output, but it is useful for checking the validity when the security vulnerability is reduced, such as data formatting, or ensuring that a message has been entered correctly without error. Bitcoin address generation does this for example.
+
+> Where have the identified illegitimate texts been changed?
+One of the text contains a sentence about the band ABBA, the others are very minor changes. This is left as an exercise for the reader. 
 
 
 ---
@@ -54,6 +59,8 @@ Using the software tool Kleopatra from https://gpg4win.org/download.html, or whi
   * What does each message say?
   * Are they both valid messages?
 * 1.D) Try to decrypt the message in column I. What problems do you encounter and why?
+
+For those using Linux or Windows based operating systems Kleopatra should be supported. For those using MAC, you can use GPG Suite (or if you are happy with the terminal, we can work there using the gpg commands).
 
 
 ### 2.2:
