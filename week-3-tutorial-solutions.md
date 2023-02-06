@@ -1,6 +1,6 @@
 Full tutorial solutions provided on Tuesday 7 Feb
 
-
+<!---
 * 0.A) Complete the table from Week 2
 
 * 0.B) Using the website block explorer https://blockchair.com/bitcoin/, take a look the latest block in Bitcoin. Select the hex string that is the block's header. Using whatever tools you like, convert this block header to bianry and decimal. 
@@ -31,7 +31,9 @@ What might we call a partial digest, and can we comment on its security?
 Now that you know which text is the legitimate text, you can find the illegitamate one, by comparing the text in the lines (HINT: a famous Swedish group?)
 
 To answer this question, we can note that A and C are very similar texts, and so are B, D and E. 
-Once we identify that text C
+Using Cryptii we can identify that the sha256 hash of C outputs the final four bits '154f7e42', and that E produces the string: `a4a2f8a5 fb46f363 836a52d2 18711aa9 8b474bb9 0a6d756c 191b453e 2f63a027`
+
+
 > One of the text contains a sentence about the band ABBA, this di
 
 
