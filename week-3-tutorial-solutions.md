@@ -1,7 +1,5 @@
-Tutorial solutions provided on Tuesday 7 Feb
+Full tutorial solutions provided on Tuesday 7 Feb
 
-
-<!---
 
 * 0.A) Complete the table from Week 2
 
@@ -31,6 +29,10 @@ What might we call a partial digest, and can we comment on its security?
 
 > Where have the identified illegitimate texts been changed?
 Now that you know which text is the legitimate text, you can find the illegitamate one, by comparing the text in the lines (HINT: a famous Swedish group?)
+
+To answer this question, we can note that A and C are very similar texts, and so are B, D and E. 
+Once we identify that text C
+> One of the text contains a sentence about the band ABBA, this di
 
 
 ---
