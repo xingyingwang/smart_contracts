@@ -144,8 +144,16 @@ Here is an example for: 4 2 op_mul
 
 Consider the function: (5×3) MOD 4 == 3
 * 2.A) In words, explain what the function does
+This function first multiples 5 by 3 then applied the modulo 4 function, before checking if this value is equal to 3. 
+
+X modulo 4 ( or x mod 4) means that we continually reduce the number by 4, until we have a value within the range 0 to 3. So in this case, 15 MOD 4, means we reduce the value 15 by 4 three times, and the result is the value we are left with, giving: 15 – (4*3) = 3.
+Modulo is used in mathematics and computer science frequently. We also use it in our everyday lives, such as the calendar: every 365 days we reset the day of the year to 1 Jan, and with the clock. We can represent 14.35 as 2.35 quite happily without having to add 2.35pm (as we usually don’t schedule events for 2.35 in the am).
+
 * 2.B) Create a script using opcodes that executes the function.
+The script would be 5 3 op_mul 4 op_mod 3 op_equalverify
+
 * 2.C) Test your script using the online editor
+Try to write a stack diagram of this solution. Can you solve this another way? 
 	
 ### 3.3:
 
@@ -168,20 +176,21 @@ P2PKH or Pay to Public Key Hash
 
 3.B) write down what each text string represents at lines 1 and 4.
 
-Line 1 represents the public key, line 4 represents the address.
+Line 1 represents the public key, line 4 represents the hash of the public key.
 
 3.C) Write down what each function does at lines 2, 3, 5 and 6.
 
-Line 2 duplicates the public key on line 1. Line 3 performs the address generation algorithm on the public key value that is as the top of the stack. Line 5 checks to see if the two items on the top of the stack are equal, and only if so continues the execution of the script. Line 6 takes a signature and a public key as input and returns true only if the signature is a valid signature corresponding to that public key.
+Line 2 duplicates the public key on line 1. \
+Line 3 performs the address generation algorithm on the public key value that is now at the top of the stack. \
+Line 5 checks to see if the two items on the top of the stack are equal, and only if so continues the execution of the script. \
+Line 6 takes a signature and a public key as input and returns true only if the signature is a valid signature corresponding to that public key.
 
 3.D) Is this script valid? If not, why not? 
 
 No, the output of op_hash160 on the public key from Line 1, returns a different output to the one appearing on Line 4. This means that op_equalverify aborts the execution. 
 
 3.E) What would happen if we changed line 4 to `2CB3A540E8CF726A3D563D7A0F350724FCDB34FC`, does the script now execute correctly? If not, why not?
-
 It would get past line 5, op_equalverify, as the op_hash160 of the public key  is equal to the address at line 10, however it does not execute as valid. This is because op_checksig needs a signature parameter as well as a public key, and no signature is provided. 
-
 
 ## Extra
 
@@ -197,4 +206,4 @@ Consider the altered transaction from 3.3, what is this extra information on Lin
 7. op_checksig
 ```
 
-
+This extra information is the signature on the script, it is one of the inputs taken by the op_checksig command. This returns true, and so the transaction script is valid. 
