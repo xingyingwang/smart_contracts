@@ -19,7 +19,7 @@ This is the first tutorial for the Smart Contract module.
 | | | 435   |
 
 
-* 0.B) Using the website block explorer https://blockchair.com/bitcoin/, take a look the latest block in Bitcoin. Select the hex string that is the block's header. Using whatever tools you like, convert this block header to bianry and decimal. 
+* 0.B) Using the website block explorer https://blockchair.com/bitcoin/, take a look the latest block in Bitcoin. Select the hex string that is the block's header. Using whatever tools you like, convert this block header to binary and decimal. 
 
 * 0.C) Do the same for 0.B, as for block number 1 in Bitcoin, using https://blockchair.com/bitcoin/. How do the numbers compare between 0.B and 0.C? Why is this?
 
@@ -313,7 +313,7 @@ Now we are going to generate our own key-pair and share it (you will need to wor
 * 2.A) Generate a key pair
 * 2.B) Export the public key, and share it on the shared module document under column E, and share your key fingerprint under column F https://docs.google.com/spreadsheets/d/1LCAhbi894bGQQcT1-xw_WcshNtiXmSF47Ei797kC790/edit#gid=0
 * 2.C) Sign a message -- it can be anything you want (keep it acceptable!) -- and publish the signed message under column G, have a colleague verify your message
-* 2.D) Encrypt a message to a colleauge of your choice -- it can be anything you want (keep it acceptable!) -- and answer the questions:
+* 2.D) Encrypt a message to a colleague of your choice -- it can be anything you want (keep it acceptable!) -- and answer the questions:
   * What process do you have to take to encrypt the message?
   * How is this different from the message signature aspect. 
 
@@ -324,10 +324,10 @@ Now we are going to generate our own key-pair and share it (you will need to wor
 ## Part 3 Smart Contracts in Bitcoin
 This part of the tutorial focuses on Bitcoin smart contracts.
 
-Bitcoin defines a stack based smart contract langauge, that is not turing complete! 
+Bitcoin defines a stack based smart contract language, that is not turing complete! 
 
 Note! You should be confident that you can give a reasonable answer the following questions:
-* What is Turing Competeness in simple terms? 
+* What is Turing Completeness in simple terms? 
 * Why is Bitcoin's scripting language not turing complete?
 * Do we realistically expect to have turing completeness in any smart contract platform?
 	
@@ -338,7 +338,7 @@ You should also use the following online graphical editor: https://siminchen.git
 
 ### 3.1:
 
-Compute the following two prpblems below by hand, and write out the value in the stack at each step. 
+Compute the following two problems below by hand, and write out the value in the stack at each step. 
 
 
 Here is an example for: 4 2 op_mul
@@ -348,7 +348,7 @@ Here is an example for: 4 2 op_mul
 | 0 |  | Initail empty stack | 
 | 1		| 4		| Added 4 to stack |
 | 2		| 4 2	| Added 2 to stack |
-| 3		| 4 2 op_mul	| Added op_mul to stack and exectuted op_mul multiplying 2 by 4 in that order |
+| 3		| 4 2 op_mul	| Added op_mul to stack and executed op_mul multiplying 2 by 4 in that order |
 |4		|8		 | Added result of op_mul to stack |
 
 * 1.A)  4 7 3 op_max op_min
