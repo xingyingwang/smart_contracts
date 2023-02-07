@@ -38,16 +38,16 @@ What might we call a partial digest, and can we comment on its security?
 Now that you know which text is the legitimate text, you can find the illegitimate one, by comparing the text in the lines (HINT: a famous Swedish group?)
 
 To answer this question, we can note that A and C are very similar texts, and so are B, D and E. 
-Using Cryptii we can identify that the sha256 hash of C outputs the final four bits '154f7e42', and that E produces the string: `a4a2f8a5 fb46f363 836a52d2 18711aa9 8b474bb9 0a6d756c 191b453e 2f63a027`.
+Using Cryptii we can identify that the sha-256 hash of C outputs the final four bits `154f7e42`, and that E produces the string: `a4a2f8a5 fb46f363 836a52d2 18711aa9 8b474bb9 0a6d756c 191b453e 2f63a027`.
 
 In this case _legitimacy_ is defined on the hashes (message digests) that we are given. Since we know what the hashes are, we can say that any message that produces that hash is legitimate, based on the premise of the question. 
 
-Th purpose of the hash function is message integrity. Since we have texts that are very similar, and hard to distinguish by hand, the hash function allows us to identify a legitimate texts, and illegitimate ones. Even a small change in the text produces a vastly different output, which is easy to recognise, even by human eyes. 
+Th purpose of the hash function is message integrity. Since we have texts that are very similar, and hard to distinguish by hand, the hash function allows us to identify legitimate texts, and illegitimate ones. Even a small change in the text produces a vastly different output which is easy to recognise, even by human eyes. 
 
-The '154f7e42' is a partial digest, and can sometimes be called integrity check digits, or a checksum. In terms of security, it is not as secure as providing an entire hash output, but it is useful for checking the validity when the security vulnerability is reduced, such as data formatting, or ensuring that a message has been entered correctly without error. Bitcoin address generation does this for example.
+The `154f7e42` is a partial digest, and can sometimes be called a fingerprint, integrity check digits, or a checksum. In terms of security, it is not as secure as providing an entire hash output, but it is useful for checking the validity when the security is not the crucial issue, such as data formatting, or ensuring that a message has been entered correctly without error. Bitcoin address generation does this for example.
 
 > Where have the identified illegitimate texts been changed?
-One of the text contains a sentence about the band ABBA, the others are very minor changes. This is left as an exercise for the reader. 
+One of the text contains a sentence about the band ABBA, the others are very minor changes. Can you find them? This is left as an exercise for the reader. 
 
 
 ---
