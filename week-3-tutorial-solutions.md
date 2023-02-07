@@ -1,6 +1,5 @@
-Full tutorial solutions provided on Tuesday 7 Feb
+### Full tutorial solutions provided on Tuesday 7 Feb
 
-<!---
 * 0.A) Complete the table from Week 2
 
 * 0.B) Using the website block explorer https://blockchair.com/bitcoin/, take a look the latest block in Bitcoin. Select the hex string that is the block's header. Using whatever tools you like, convert this block header to bianry and decimal. 
