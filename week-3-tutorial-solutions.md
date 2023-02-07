@@ -6,14 +6,14 @@
 
 Completed in lectures
 
-* 0.B) Using the website block explorer https://blockchair.com/bitcoin/, take a look the latest block in Bitcoin. Select the hex string that is the block's header. Using whatever tools you like, convert this block header to bianry and decimal. 
+* 0.B) Using the website block explorer https://blockchair.com/bitcoin/, take a look the latest block in Bitcoin. Select the hex string that is the block's header. Using whatever tools you like, convert this block header to binary and decimal. 
 
-Walkthrough of this problem given in lectures, the block will start with a large number of leading zeros, such as '00000000000000a8...', when we express these in binary, for each 00 in hex we will have eight zeros in binary, so 00000000, resulting in a binary string of 256-bits, with a lot of 0s before the first 1 appears. In decimal, this number will be large, bug significanly smaller than the possible $2^256 - 1$ values. 
+Walkthrough of this problem given in lectures, the block will start with a large number of leading zeros, such as '00000000000000a8...', when we express these in binary, for each 00 in hex we will have eight zeros in binary, so 00000000, resulting in a binary string of 256-bits, with a lot of 0s before the first 1 appears. In decimal, this number will be large, bug significantly smaller than the possible $2^256 - 1$ values. 
 
 
 * 0.C) Do the same for 0.B, as for block number 1 in Bitcoin, using https://blockchair.com/bitcoin/. How do the numbers compare between 0.B and 0.C? Why is this?
 
-You will again see something simailir to 0.B, but there will be fewer leading zeros. When converting the value to binary and decimal, we will see that the decimal equivalent will be far larger than the value from 0.B. This is because it is now harder to create a block in Bitcoin, and so as the difficulty has increased, the target value has decresed, so that now to create a block, the decimal equivalent of the hash output must be below a lower value.
+You will again see something similar to 0.B, but there will be fewer leading zeros. When converting the value to binary and decimal, we will see that the decimal equivalent will be far larger than the value from 0.B. This is because it is now harder to create a block in Bitcoin, and so as the difficulty has increased, the target value has decreased, so that now to create a block, the decimal equivalent of the hash output must be below a lower value.
 
 
 ---
@@ -35,14 +35,14 @@ Try to answer the questions: How can we be sure of the legitimacy? What is the p
 What might we call a partial digest, and can we comment on its security? 
 
 > Where have the identified illegitimate texts been changed?
-Now that you know which text is the legitimate text, you can find the illegitamate one, by comparing the text in the lines (HINT: a famous Swedish group?)
+Now that you know which text is the legitimate text, you can find the illegitimate one, by comparing the text in the lines (HINT: a famous Swedish group?)
 
 To answer this question, we can note that A and C are very similar texts, and so are B, D and E. 
 Using Cryptii we can identify that the sha256 hash of C outputs the final four bits '154f7e42', and that E produces the string: `a4a2f8a5 fb46f363 836a52d2 18711aa9 8b474bb9 0a6d756c 191b453e 2f63a027`.
 
 In this case _legitimacy_ is defined on the hashes (message digests) that we are given. Since we know what the hashes are, we can say that any message that produces that hash is legitimate, based on the premise of the question. 
 
-Th purpose of the hash function is message integrity. Since we have texts that are very simailair, and hard to distinguish by hand, the hash function allows us to identify a legitimate texts, and illegitamate ones. Even a small change in the text produces a vastly different output, which is easy to recognise, even by human eyes. 
+Th purpose of the hash function is message integrity. Since we have texts that are very similar, and hard to distinguish by hand, the hash function allows us to identify a legitimate texts, and illegitimate ones. Even a small change in the text produces a vastly different output, which is easy to recognise, even by human eyes. 
 
 The '154f7e42' is a partial digest, and can sometimes be called integrity check digits, or a checksum. In terms of security, it is not as secure as providing an entire hash output, but it is useful for checking the validity when the security vulnerability is reduced, such as data formatting, or ensuring that a message has been entered correctly without error. Bitcoin address generation does this for example.
 
@@ -52,8 +52,6 @@ One of the text contains a sentence about the band ABBA, the others are very min
 
 ---
 ## Part 2 Digital Signatures and Encryption
-
-We are now going to take a deeper dive into digital signatures and encryption.
 
 ### 2.1:
 
@@ -69,6 +67,7 @@ Using the software tool Kleopatra from https://gpg4win.org/download.html, or whi
 * 1.D) Try to decrypt the message in column I. What problems do you encounter and why?
 
 For those using Linux or Windows based operating systems Kleopatra should be supported. For those using MAC, you can use GPG Suite (or if you are happy with the terminal, we can work there using the gpg commands).
+This is explained in the video lectures on Week 4.
 
 
 ### 2.2:
@@ -78,21 +77,22 @@ Now we are going to generate our own key-pair and share it (you will need to wor
 * 2.A) Generate a key pair
 * 2.B) Export the public key, and share it on the shared module document under column E, and share your key fingerprint under column F https://docs.google.com/spreadsheets/d/1LCAhbi894bGQQcT1-xw_WcshNtiXmSF47Ei797kC790/edit#gid=0
 * 2.C) Sign a message -- it can be anything you want (keep it acceptable!) -- and publish the signed message under column G, have a colleague verify your message
-* 2.D) Encrypt a message to a colleauge of your choice -- it can be anything you want (keep it acceptable!) -- and answer the questions:
+* 2.D) Encrypt a message to a colleague of your choice -- it can be anything you want (keep it acceptable!) -- and answer the questions:
   * What process do you have to take to encrypt the message?
   * How is this different from the message signature aspect. 
 
-
+The solutions for the tasks in Part 2 are to follow through the steps above. For the two questions at the end, you are expected to think about how you need the public key of the recipient before you can encrypt a message to them, whereas you can sign a message immediately.
+Encryption is different as only the recipient can actually view the message, whereas the public nature of the signature is essential to the verifiability.
 
 ---
 
 ## Part 3 Smart Contracts in Bitcoin
 This part of the tutorial focuses on Bitcoin smart contracts.
 
-Bitcoin defines a stack based smart contract langauge, that is not turing complete! 
+Bitcoin defines a stack based smart contract language, that is not turing complete! 
 
 Note! You should be confident that you can give a reasonable answer the following questions:
-> * What is Turing Competeness in simple terms? 
+> * What is Turing Completeness in simple terms? 
 > * Why is Bitcoin's scripting language not turing complete?
 > * Do we realistically expect to have turing completeness in any smart contract platform?
 
@@ -131,18 +131,18 @@ Here is an example for: 4 2 op_mul
 * 1.B)  4 7 op_mul 5 op_mod 
 
 -------------------------
-| Step	| Stack |	Explanation |
+| Step	| Stack |	Explanation  |
 |-------|-------|---------------|
-| 0     |       | Initail empty stack | 
+| 0     |       | Initial empty stack | 
 | 1		  | 4		  | Added 4 to stack |
 | 2		  | 4 7	  | Added 7 to stack |
 | 3		  | 4 7 op_mul    | Added op_mul to stack |
-| 4		  | 4 7 3 op_max	| Added op_max to stack and exectuted op_max for max of 3 and 7 retruning 7 to stack |
-| 5		  | 4 7 op_min    | Added op_min to stack and exectuted op_min for min of 4 and 7 retruning 4 |
+| 4		  | 4 7 3 op_max	| Added op_max to stack and executed op_max for max of 3 and 7 returning 7 to stack |
+| 5		  | 4 7 op_min    | Added op_min to stack and executed op_min for min of 4 and 7 returning 4 |
 
 ### 3.2:
 
-Consider the fucntion: (5×3) MOD 4 == 3
+Consider the function: (5×3) MOD 4 == 3
 * 2.A) In words, explain what the function does
 * 2.B) Create a script using opcodes that executes the function.
 * 2.C) Test your script using the online editor
