@@ -8,7 +8,7 @@ Completed in lectures
 
 * 0.B) Using the website block explorer https://blockchair.com/bitcoin/, take a look the latest block in Bitcoin. Select the hex string that is the block's header. Using whatever tools you like, convert this block header to binary and decimal. 
 
-Walkthrough of this problem given in lectures, the block will start with a large number of leading zeros, such as '00000000000000a8...', when we express these in binary, for each 00 in hex we will have eight zeros in binary, so 00000000, resulting in a binary string of 256-bits, with a lot of 0s before the first 1 appears. In decimal, this number will be large, bug significantly smaller than the possible $2^256 - 1$ values. 
+Walkthrough of this problem given in lectures, the block will start with a large number of leading zeros, such as '00000000000000a8...', when we express these in binary, for each 00 in hex we will have eight zeros in binary, so 00000000, resulting in a binary string of 256-bits, with a lot of 0s before the first 1 appears. In decimal, this number will be large, bug significantly smaller than the maximum possible value of $2^{256}-1$. 
 
 
 * 0.C) Do the same for 0.B, as for block number 1 in Bitcoin, using https://blockchair.com/bitcoin/. How do the numbers compare between 0.B and 0.C? Why is this?
