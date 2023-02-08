@@ -51,8 +51,131 @@ The group project is the development and presentation of a smart contract.
 - Those who have not found a group by the end of Week 4 (Friday 10 Feb) will be assigned a group by the module leader
 - Groups smaller than 6 may have members added to them at the discretion of the module leader
 
-### Group project description
-Announced in Lecture 4, Week 4 (Monday 6 Feb), and available here after that date
+## Group project description
+
+## The scenario
+       
+*Your group are creating a startup, and you have decided that you want to work in the exciting world of blockchains and smart contracts. The first things you need are simple. You need backers. You need interest. You need funding. You see an opportunity for a presentation and pitch competition coming up, and you sign up for it. The event welcomes all comers, from academics, to techies and entrepreneurs.*
+
+*The information of the event explains that the presentation will be given in person, by all members of the startup, in front of a live audience. The audience will be members of top ranking academic institutions, investors, executives and other presenters like yourselves. You are told that the you will be expected to answer questions, and that the presentation must be no more than 10 minutes long.*
+
+*First things first, you had better come up with an idea!*
+
+## Description
+
+You must create a ten minute presentation that you will present in person at the Tutorial slot in Week 11. \
+Your presentation will be an idea for a smart contract that you will deploy on a blockchain platform of your choice.
+
+You presentation must include (at least):
+    * A title, date, group name, names of group members and group number
+    * An explanation of what you have chosen to create, and why
+    * Advantages and drawbacks to your smart contract
+    * Competitor discussion
+    * Blockchain deployment decisions
+    * A working demonstration of your smart contract
+    * References
+
+You may use any presentation tools you wish, such as MS PowerPoint or Beamer, but your presentation slides must be in PDF format.
+
+\begin{frame}{Group project: Goals and milestones}
+    \textbf{The goal} is to create a smart contract prototype, and present it at the end of Week 11. 
+    
+    The suggested milestones are as follows:
+
+    \begin{enumerate}
+        \item Decide in your group on a smart contract idea you want to implement (end of Week 5)
+        \item Build a smart contract application using any tools you wish (end of Week 9)
+        \item Complete and deliver, in person, a presentation of your smart contract idea at Friday of Week 11 (end of Week 11)
+        \item Deliver a recorded presentation with the PDF of your slides to BART by the following Friday, Week 12 (end of Week 12)
+    \end{enumerate}
+
+\metroset{block=fill}
+ \begin{alertblock}{Bonus marks}
+         For bonus marks in your presentation: Ask a question of another group in their presentation, and record your question, as well as the answer and your comments in your PDF slides file.
+ \end{alertblock}
+\metroset{block=fill}
+
+\end{frame}
+
+\begin{frame}{Group project: presentation template}
+    A PowePoint template is available on the \href{https://vle.exeter.ac.uk/course/view.php?id=14438}{\alert{ELE}} page, under ``Assessment information". You are free to use it, change it, adapt it, or to use something else, such as Beamer.
+    
+\end{frame}
+
+
+\begin{frame}{Group project: marking criteria and feedback}
+
+\begin{tabular}{|l|l|c|}
+\hline
+   \textbf{Marking sheet}  & Factors & Marks available \\ 
+\hline
+\hline
+    Presentation skills & $\cdot$ Clear text               & 30\\ 
+                        & $\cdot$ Formatting               & \\ 
+                        & $\cdot$ Spoken communication     & \\ 
+                        & $\cdot$ Use of slides or props   & \\ 
+\hline
+    Knowledge \& understanding  & $\cdot$ Demonstration of knowledge       & 50 \\ 
+                                & $\cdot$ Providing insight                & \\ 
+                                & $\cdot$ Evidence of critical thinking    & \\ 
+                                & $\cdot$ Technical demonstration          & \\ 
+\hline
+    References  & $\cdot$ Appropriate       & 10\\
+                & $\cdot$ Well formatted    & \\
+    \hline
+    Response to questions & $\cdot$ Clear and concise & 10  \\
+                          & $\cdot$ Informative       &     \\
+                          & $\cdot$ Explanation of feedback and changes  & \\
+    \hline
+    Bonus   & $\cdot$ Well written explanation of question & 5\\
+            
+    \hline
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Group project: marking criteria and feedback}
+
+  %  You are being assessed on how well you explain and put across the smart contract idea / platform, that you have decided to create. You will have to show what you have made, even if it is just some example code working on remix, to a graphical interface deployed on a blockchain. 
+  
+    This \href{https://www.durham.ac.uk/media/durham-university/departments-/common-awards/documents/assessment-documents/guidance-documents/Assessment-Guidelines_Oral-Presentations.pdf}{\alert{link}}, from Durham University, also provides some good information for creating a good presentation. 
+\end{frame}
+
+%Knowledge and understanding: Did your presentation demonstrate a thorough
+%understanding of the relevant subject matter?
+%Argument and reasoning: Was your response to the question / task well argued
+%and clearly reasoned?
+%Did you demonstrate the ability to think critically and
+%analytically?
+%Presentational skills Was the presentation well designed and clearly
+%structured?
+%Was the presentation appropriately tailored to the
+%audience and situatio
+
+%Common Awards Assessment Guidelines
+%%ORAL PRESENTATIONS
+%4
+%Were you audible and were the pace and timing
+%good? Were you well organised and prepared? Did
+%you make appropriate eye contact with your
+%audience?
+%Did you make appropriate and effective use of media?
+%Written rationale /
+%commentary:
+%Does the commentary show good reflective ability,
+%making good connections between the presentation
+%you gave and knowledge and understanding?
+%Is your writing clear, using appropriate vocabulary,
+%employing correct grammar and spelling, and
+%following your TEI’s referencing conventions?
+
+\begin{frame}{Group project: Uploading your presentation}
+\begin{itemize}
+    \item After you deliver your presentation you will be expected to record and deliver your presentation by the following Friday, to BART.
+    \item You will upload a pdf on your presentation slides, including a link to your presentation which can be stored in one-drive.
+    \item You may make small changes to your presentation based on the feedback you receive in Week 11.
+    \item In case you make changes, you must record this on a supplementary slide page at the end of your presentation. If you don't, you can use this to comment on the feedback you received.
+\end{itemize}
+\end{frame}
 
 ### Group project goals and milestones
 
