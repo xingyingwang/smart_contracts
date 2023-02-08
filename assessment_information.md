@@ -104,50 +104,31 @@ A PowePoint template is available on the <a href="https://vle.exeter.ac.uk/cours
 |                           | Formatting                       |                    | 
 |                           | Spoken communication             |                    |
 |                           | Use of slides or props           |                    | 
-|                        -----
-
-
-    Knowledge \& understanding  & $\cdot$ Demonstration of knowledge       & 50 \\ 
-                                & $\cdot$ Providing insight                & \\ 
-                                & $\cdot$ Evidence of critical thinking    & \\ 
-                                & $\cdot$ Technical demonstration          & \\ 
-\hline
-    References  & $\cdot$ Appropriate       & 10\\
-                & $\cdot$ Well formatted    & \\
-    \hline
-    Response to questions & $\cdot$ Clear and concise & 10  \\
-                          & $\cdot$ Informative       &     \\
-                          & $\cdot$ Explanation of feedback and changes  & \\
-    \hline
-    Bonus   & $\cdot$ Well written explanation of question & 5\\
+|             ---           |             ---                  |      ---           |
+| Knowledge and understanding | Demonstration of knowledge     |  50                |
+|                           | Providing insight                |                    |
+|                           | Evidence of critical thinking    |                    |
+|                           | Technical demonstration          |                    |
+|             ---           |             ---                  |        ---         |
+|    References             | Appropriate                      |       10           |
+|                           |     Well formatted               |                    |
+|             ---           |             ---                  |        ---         |
+| Response to questions     | Clear and concise                |      10            |
+|                           | Informative                      |                    |
+|                           | Explanation of feedback and changes  |                |
+|             ---           |             ---                  |        ---         |
+|    Bonus                  | Well written explanation of question |  5             |
             
-    \hline
-\end{tabular}
-\end{frame}
-
-\begin{frame}{Group project: marking criteria and feedback}
-
-  %  You are being assessed on how well you explain and put across the smart contract idea / platform, that you have decided to create. You will have to show what you have made, even if it is just some example code working on remix, to a graphical interface deployed on a blockchain. 
+You will be assessed on how well you explain and put across the smart contract idea / platform, that you have decided to create. You will have to show what you have made, even if it is just some example code working on remix, to a graphical interface deployed on a blockchain. 
   
-    This \href{https://www.durham.ac.uk/media/durham-university/departments-/common-awards/documents/assessment-documents/guidance-documents/Assessment-Guidelines_Oral-Presentations.pdf}{\alert{link}}, from Durham University, also provides some good information for creating a good presentation. 
-\end{frame}
+This page: https://www.durham.ac.uk/media/durham-university/departments-/common-awards/documents/assessment-documents/guidance-documents/Assessment-Guidelines_Oral-Presentations.pdf, from Durham University, also provides some good information for creating a presentation. 
 
+### Uploading your presentation
+- After you deliver your presentation you will be expected to record and deliver your presentation by the following Friday, to BART.
+- You will upload a pdf on your presentation slides, including a link to your presentation which can be stored in one-drive.
+- You may make small changes to your presentation based on the feedback you receive in Week 11.
+- In case you make changes, you must record this on a supplementary slide page at the end of your presentation. If you don't, you can use this to comment on the feedback you received.
 
-
-
-\begin{frame}{Group project: Uploading your presentation}
-\begin{itemize}
-    \item After you deliver your presentation you will be expected to record and deliver your presentation by the following Friday, to BART.
-    \item You will upload a pdf on your presentation slides, including a link to your presentation which can be stored in one-drive.
-    \item You may make small changes to your presentation based on the feedback you receive in Week 11.
-    \item In case you make changes, you must record this on a supplementary slide page at the end of your presentation. If you don't, you can use this to comment on the feedback you received.
-\end{itemize}
-\end{frame}
-
-### Group project goals and milestones
-
-### Marking criteria and feedback
-Announced in Lecture 4, Week 4, (Monday 6 Feb), and available here after that date
 
 
 
