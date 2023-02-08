@@ -77,7 +77,7 @@ You presentation must include (at least):
 
 You may use any presentation tools you wish, such as MS PowerPoint or Beamer, but your presentation slides must be in PDF format.
 
-## Group project: Goals and milestones
+### Goals and milestones
 **The goal** is to create a smart contract prototype, and present it at the end of Week 11. 
     The suggested milestones are as follows:
 
@@ -88,24 +88,25 @@ You may use any presentation tools you wish, such as MS PowerPoint or Beamer, bu
    
 > For bonus marks in your presentation: Ask a question of another group in their presentation, and record your question, as well as the answer and your comments in your PDF slides file.
 
-## Presentation template
-A PowePoint template is available on the <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"}{ELE} page, under "Assessment information". You are free to use it, change it, adapt it, or to use something else, such as Beamer.
+### Presentation template
+A PowePoint template is available on the <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> ELE </a> page, under "Assessment information". You are free to use it, change it, adapt it, or to use something else, such as Beamer.
     
+### Marking criteria and feedback
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+| Marking sheet             | Factors                          | Marks available    |
+| :---                      |  :---                            | ---:               |   
+| Presentation skills       | Clear text                       |      30            | 
+|                           | Formatting                       |                    | 
+|                           | Spoken communication             |                    |
+|                           | Use of slides or props           |                    | 
+|                        -----
 
 
-
-\begin{frame}{Group project: marking criteria and feedback}
-
-\begin{tabular}{|l|l|c|}
-\hline
-   \textbf{Marking sheet}  & Factors & Marks available \\ 
-\hline
-\hline
-    Presentation skills & $\cdot$ Clear text               & 30\\ 
-                        & $\cdot$ Formatting               & \\ 
-                        & $\cdot$ Spoken communication     & \\ 
-                        & $\cdot$ Use of slides or props   & \\ 
-\hline
     Knowledge \& understanding  & $\cdot$ Demonstration of knowledge       & 50 \\ 
                                 & $\cdot$ Providing insight                & \\ 
                                 & $\cdot$ Evidence of critical thinking    & \\ 
@@ -131,33 +132,8 @@ A PowePoint template is available on the <a href="https://vle.exeter.ac.uk/cours
     This \href{https://www.durham.ac.uk/media/durham-university/departments-/common-awards/documents/assessment-documents/guidance-documents/Assessment-Guidelines_Oral-Presentations.pdf}{\alert{link}}, from Durham University, also provides some good information for creating a good presentation. 
 \end{frame}
 
-%Knowledge and understanding: Did your presentation demonstrate a thorough
-%understanding of the relevant subject matter?
-%Argument and reasoning: Was your response to the question / task well argued
-%and clearly reasoned?
-%Did you demonstrate the ability to think critically and
-%analytically?
-%Presentational skills Was the presentation well designed and clearly
-%structured?
-%Was the presentation appropriately tailored to the
-%audience and situatio
 
-%Common Awards Assessment Guidelines
-%%ORAL PRESENTATIONS
-%4
-%Were you audible and were the pace and timing
-%good? Were you well organised and prepared? Did
-%you make appropriate eye contact with your
-%audience?
-%Did you make appropriate and effective use of media?
-%Written rationale /
-%commentary:
-%Does the commentary show good reflective ability,
-%making good connections between the presentation
-%you gave and knowledge and understanding?
-%Is your writing clear, using appropriate vocabulary,
-%employing correct grammar and spelling, and
-%following your TEI’s referencing conventions?
+
 
 \begin{frame}{Group project: Uploading your presentation}
 \begin{itemize}
