@@ -105,9 +105,9 @@ You should also use the following online graphical editor: https://siminchen.git
 
 Compute the following two prpblems below by hand, and write out the value in the stack at each step. 
 
-
-Here is an example for: 4 2 op_mul
 -------------------------
+Here is an example for: 4 2 op_mul
+
 | Step	| Stack |	Explanation |
 |-------|-------|---------------|
 | 0 |  | Initail empty stack | 
@@ -116,9 +116,9 @@ Here is an example for: 4 2 op_mul
 | 3		| 4 2 op_mul	| Added op_mul to stack and exectuted op_mul multiplying 2 by 4 in that order |
 |4		|8		 | Added result of op_mul to stack |
 
+-------------------------
 * 1.A)  4 7 3 op_max op_min
 
--------------------------
 | Step	| Stack |	Explanation |
 |-------|-------|---------------|
 | 0     |       | Initail empty stack | 
@@ -127,19 +127,21 @@ Here is an example for: 4 2 op_mul
 | 3		  | 4 7 3 | Added 3 to stack |
 | 4		  | 4 7 3 op_max	| Added op_max to stack and exectuted op_max for max of 3 and 7 retruning 7 to stack |
 | 5		  | 4 7 op_min    | Added op_min to stack and exectuted op_min for min of 4 and 7 retruning 4 |
-
-* 1.B)  4 7 op_mul 5 op_mod 
+| 6		  | 4 	    | Added op_min to stack and exectuted op_min for min of 4 and 7 retruning 4 |
 
 -------------------------
+* 1.B)  4 7 op_mul 5 op_mod 
+
 | Step	| Stack |	Explanation  |
 |-------|-------|---------------|
-| 0     |       | Initial empty stack | 
+| 0   		  |       	  | Initial empty stack | 
 | 1		  | 4		  | Added 4 to stack |
-| 2		  | 4 7	  | Added 7 to stack |
-| 3		  | 4 7 op_mul    | Added op_mul to stack |
-| 4		  | 4 7 3 op_max	| Added op_max to stack and executed op_max for max of 3 and 7 returning 7 to stack |
-| 5		  | 4 7 op_min    | Added op_min to stack and executed op_min for min of 4 and 7 returning 4 |
+| 2		  | 4 7	  	  | Added 7 to stack |
+| 3		  | 4 7 op_mul    | Added op_mul to stack and executed op_mul to multiply 4 by 7, returning 1C to stack |
+| 4		  | 1C 5 op_mod   | Added op_mod to stack and executed op_mod to take 1C (or 28 in decimal), and return 28 Modulo 5 = 3 |
+| 5		  | 3		  |  |
 
+--------------------------
 ### 3.2:
 
 Consider the function: (5×3) MOD 4 == 3
