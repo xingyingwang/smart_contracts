@@ -127,7 +127,7 @@ Here is an example for: 4 2 op_mul
 | 3		  | 4 7 3 | Added 3 to stack |
 | 4		  | 4 7 3 op_max	| Added op_max to stack and exectuted op_max for max of 3 and 7 retruning 7 to stack |
 | 5		  | 4 7 op_min    | Added op_min to stack and exectuted op_min for min of 4 and 7 retruning 4 |
-| 6		  | 4 	    | Added op_min to stack and exectuted op_min for min of 4 and 7 retruning 4 |
+| 6		  | 4 	    |  |
 
 -------------------------
 * 1.B)  4 7 op_mul 5 op_mod 
