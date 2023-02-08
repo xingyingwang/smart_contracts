@@ -93,10 +93,7 @@ A PowePoint template is available on the <a href="https://vle.exeter.ac.uk/cours
     
 ### Marking criteria and feedback
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+
 
 | Marking sheet             | Factors                          | Marks available    |
 | :---                      |  :---                            | ---:               |   
