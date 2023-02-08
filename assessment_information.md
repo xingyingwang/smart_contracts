@@ -37,10 +37,10 @@ Additional information will also be provided closer to the exam time, such as ex
 ## Group project 
 The group project is the development and presentation of a smart contract.
 - The group project accounts for 30% of your final grade	
-- It is a 15 minute in person group presentation, including questions
+- It is a 15 minute in person group presentation, including questions (10 minutes for presentation and 5 for questions)
 - You will also record and uploaded your presentation for quality checking
 - You will be assessed on the development of your smart contract, as well as the quality of your presentation and your response to questions
-- You must ensure you stick to the 15 minute time limit
+- You must ensure you stick to the maximum 15 minute time limit
 - A formal criteria sheet will be made available after the start of the module, which will make up your feedback sheet
 - The deadline for the completion of the group project will be the end of Week 11
 
@@ -53,54 +53,45 @@ The group project is the development and presentation of a smart contract.
 
 ## Group project description
 
-## The scenario
+### The scenario
        
-*Your group are creating a startup, and you have decided that you want to work in the exciting world of blockchains and smart contracts. The first things you need are simple. You need backers. You need interest. You need funding. You see an opportunity for a presentation and pitch competition coming up, and you sign up for it. The event welcomes all comers, from academics, to techies and entrepreneurs.*
+*"Your group are creating a startup, and you have decided that you want to work in the exciting world of blockchains and smart contracts. The first things you need are simple. You need backers. You need interest. You need funding. You see an opportunity for a presentation and pitch competition coming up, and you sign up for it. The event welcomes all comers, from academics, to techies and entrepreneurs.*
 
 *The information of the event explains that the presentation will be given in person, by all members of the startup, in front of a live audience. The audience will be members of top ranking academic institutions, investors, executives and other presenters like yourselves. You are told that the you will be expected to answer questions, and that the presentation must be no more than 10 minutes long.*
 
-*First things first, you had better come up with an idea!*
+*First things first, you had better come up with an idea!"*
 
-## Description
+### Description
 
 You must create a ten minute presentation that you will present in person at the Tutorial slot in Week 11. \
 Your presentation will be an idea for a smart contract that you will deploy on a blockchain platform of your choice.
 
 You presentation must include (at least):
-    * A title, date, group name, names of group members and group number
-    * An explanation of what you have chosen to create, and why
-    * Advantages and drawbacks to your smart contract
-    * Competitor discussion
-    * Blockchain deployment decisions
-    * A working demonstration of your smart contract
-    * References
+- A title, date, group name, names of group members and group number
+- An explanation of what you have chosen to create, and why
+- Advantages and drawbacks to your smart contract
+- Competitor discussion
+- Blockchain deployment decisions
+- A working demonstration of your smart contract
+- References
 
 You may use any presentation tools you wish, such as MS PowerPoint or Beamer, but your presentation slides must be in PDF format.
 
-\begin{frame}{Group project: Goals and milestones}
-    \textbf{The goal} is to create a smart contract prototype, and present it at the end of Week 11. 
-    
+## Group project: Goals and milestones
+**The goal** is to create a smart contract prototype, and present it at the end of Week 11. 
     The suggested milestones are as follows:
 
-    \begin{enumerate}
-        \item Decide in your group on a smart contract idea you want to implement (end of Week 5)
-        \item Build a smart contract application using any tools you wish (end of Week 9)
-        \item Complete and deliver, in person, a presentation of your smart contract idea at Friday of Week 11 (end of Week 11)
-        \item Deliver a recorded presentation with the PDF of your slides to BART by the following Friday, Week 12 (end of Week 12)
-    \end{enumerate}
+1. Decide in your group on a smart contract idea you want to implement (end of Week 5)
+2. Build a smart contract application using any tools you wish (end of Week 9)
+3. Complete and deliver, in person, a presentation of your smart contract idea at Friday of Week 11 (end of Week 11)
+4. Deliver a recorded presentation with the PDF of your slides to BART by the following Friday, Week 12 (end of Week 12)
+   
+> For bonus marks in your presentation: Ask a question of another group in their presentation, and record your question, as well as the answer and your comments in your PDF slides file.
 
-\metroset{block=fill}
- \begin{alertblock}{Bonus marks}
-         For bonus marks in your presentation: Ask a question of another group in their presentation, and record your question, as well as the answer and your comments in your PDF slides file.
- \end{alertblock}
-\metroset{block=fill}
-
-\end{frame}
-
-\begin{frame}{Group project: presentation template}
-    A PowePoint template is available on the \href{https://vle.exeter.ac.uk/course/view.php?id=14438}{\alert{ELE}} page, under ``Assessment information". You are free to use it, change it, adapt it, or to use something else, such as Beamer.
+## Presentation template
+A PowePoint template is available on the <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"}{ELE} page, under "Assessment information". You are free to use it, change it, adapt it, or to use something else, such as Beamer.
     
-\end{frame}
+
 
 
 \begin{frame}{Group project: marking criteria and feedback}
