@@ -9,19 +9,19 @@ contract Storage {
     bytes32 SOLUTION = 0x7f6dd79f0020bee2024a097aaa5d32ab7ca31126fa375538de047e7475fa8572;
     bytes32 SLOG = 0x0000000000000000000000000000000000000000000000000000000000000000;
 
-    // FUNCTION 1: Store a value in the smart contract
+    // FUNCTION 1: Store an innteger value in the smart contract
     function store(uint256 num) public returns(uint256) {
         number = num;
         return (number);
     }
 
-    // FUNCTION 2: Retrive the stored value in the contract
+    // FUNCTION 2: Retrive the stored integer value in the contract
     function retrieve() public view returns (uint256){
         return (number);
 
     }
 
-    // FUNCTION 3: Display a string that I send to the smart contract
+    // FUNCTION 3: Display a string that you send to the smart contract
     function display(string memory _string1) public pure returns(string memory) {
         return (_string1);
     }
