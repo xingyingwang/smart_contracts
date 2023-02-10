@@ -40,7 +40,7 @@ contract Storage {
     function check_puzzle(string memory _string3) public view returns(string memory){ 
 
         // THIS IS THE PUZZLE FUNCTION!
-        // THE SOLUTION TO THE PUZZLE IS A SINGLE WORD, ONE THAT YOU WILL HAVE SEEN MANY TIMES IN THE LETCURE SLIDES!
+        // THE SOLUTION TO THE PUZZLE IS A SINGLE WORD, ONE THAT YOU WILL HAVE SEEN MANY TIMES IN THE LECTURE SLIDES!
         if (hash(_string3) == SLOG) {
             return("puzzle solved");
         } else {
@@ -51,3 +51,7 @@ contract Storage {
 
 
 }
+
+<!---
+puzzle solution = contract
+--->
