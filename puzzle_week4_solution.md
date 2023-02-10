@@ -1,0 +1,3 @@
+<!---
+puzzle solution is: contract
+--->
