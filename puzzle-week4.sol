@@ -52,6 +52,4 @@ contract Storage {
 
 }
 
-<!---
-puzzle solution = contract
---->
+
