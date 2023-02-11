@@ -34,11 +34,21 @@ The **Timetable**, updated periodically, is only available via the ELE page: <a 
 Lecture slides available on <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> ELE </a>
 
 ## Week 6
-Not yet available 
+Week 6 is a break week, and there are no lectures or tutorials. 
+
+For this week, the focus should be on:
+- Completing task set 5, in Week 5's lecture slides
+- Making a start on your group work
+- Completing the solidity puzzle from Week 4
+- Ensuring you have completed the previous tasks and tutorial questions
+- If you have completed this, well done!
+- Take a well deserved break to reset yourself for the remaining 5 weeks of the module.
+
 ## Week 7 to 11
 
 ## Group project deadlines
-Not yet available 
+- Friday 31 March, Week 11: In person group presentation.
+- Friday 7 April, Week 12: Presentation recording uploaded
 
 ## Exam date
 The exam date 
