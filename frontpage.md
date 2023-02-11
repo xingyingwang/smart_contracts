@@ -31,7 +31,7 @@ The **Timetable**, updated periodically, is only available via the ELE page: <a 
 --->
 
 ## Week 1 to 5
-Lecture slides available on <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> ELE </a>
+Lecture slides and recordings available on <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> ELE</a>.
 
 ## Week 6
 Week 6 is a break week, and there are no lectures or tutorials. 
@@ -48,7 +48,7 @@ For this week, the focus should be on:
 
 ## Group project deadlines
 - Friday 31 March, Week 11: In person group presentation.
-- Friday 7 April, Week 12: Presentation recording uploaded
+- Friday 7 April, Week 12: Presentation recording uploaded with slides in pdf format. 
 
 ## Exam date
-The exam date 
+The exam will be in May, split into two parts, with a written question part and a multiple choice part. 
