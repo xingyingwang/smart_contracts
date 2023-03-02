@@ -55,7 +55,7 @@ One of the text contains a sentence about the band ABBA, the others are very min
 
 ### 2.1:
 
-Take a look at the shared module document, in Row 2, columns E, F, G, H, I: https://docs.google.com/spreadsheets/d/1LCAhbi894bGQQcT1-xw_WcshNtiXmSF47Ei797kC790/edit#gid=0
+Take a look at the shared module document on ELE, in Row 2, columns E, F, G, H, I. 
 
 Using the software tool Kleopatra from https://gpg4win.org/download.html, or whichever tool you prefer, complete the following: 
 
@@ -75,7 +75,7 @@ This is explained in the video lectures on Week 4.
 Now we are going to generate our own key-pair and share it (you will need to work with someone to do this task)
 
 * 2.A) Generate a key pair
-* 2.B) Export the public key, and share it on the shared module document under column E, and share your key fingerprint under column F https://docs.google.com/spreadsheets/d/1LCAhbi894bGQQcT1-xw_WcshNtiXmSF47Ei797kC790/edit#gid=0
+* 2.B) Export the public key, and share it on the shared module document on ELE under column E, and share your key fingerprint under column F
 * 2.C) Sign a message -- it can be anything you want (keep it acceptable!) -- and publish the signed message under column G, have a colleague verify your message
 * 2.D) Encrypt a message to a colleague of your choice -- it can be anything you want (keep it acceptable!) -- and answer the questions:
   * What process do you have to take to encrypt the message?
