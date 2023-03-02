@@ -1,3 +1,2 @@
-<!---
+
 puzzle solution is: contract
---->
