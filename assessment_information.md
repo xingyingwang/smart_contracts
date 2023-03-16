@@ -23,8 +23,9 @@ The exam is a 2 hour online exam and comprises:
 - A blank answer will award 0 marks
 - Questions are randomised and taken from a larger bank of questions
 
-### Long form questions 
-- There are 2 long form questions, with written answers
+### Long form questions / written exam
+- There are 3 long form questions, with written answers
+- You are expected to select and answer 2 of the 3 questions
 - Each question accounts for 30% of the exam (30 marks maximum per question)
 - A good way to prepare your answer for the long form question is to prepare it in your favourite text editing software and copy-paste in when you have your ready 
 
