@@ -16,11 +16,11 @@ The exam is a 2 hour online exam and comprises:
 
 ### Multiple choice component
 - The multiple choice component makes up 40% of the exam
-- There will be a choice of 4 answers for each question
-- There are 40 marks available in total
-- A correct answer will award 2 marks
-- An incorrect answer will remove 1 mark (be aware of the negative marking)
-- A blank answer will award 0 marks
+- There will be a choice of 5 answers for each question
+- There are 20 marks available in total
+- A correct answer will award 1 marks
+- An incorrect answer will deduct 0.33 of a mark (be aware of the negative marking)
+- You can select to not answer the question, in which case you will gain 0 marks
 - Questions are randomised and taken from a larger bank of questions
 
 ### Long form questions / written exam
