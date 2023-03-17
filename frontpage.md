@@ -48,7 +48,7 @@ For this week, the focus should be on:
 
 ## Group project deadlines
 - Friday 31 March, Week 11: In person group presentation.
-- Friday 7 April, Week 12: Presentation recording uploaded with slides in pdf format. 
+- Friday 7 April, Week 12: Presentation recording uploaded with slides in pdf format. Deadline for upload is 12:00 midday on 7 April.
 
 ## Exam date
-The exam will be in May, split into two parts, with a written question part and a multiple choice part. 
+The exam will be 10 May, split into two parts, with a written question part and a multiple choice part. 
