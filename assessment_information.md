@@ -12,7 +12,7 @@ Participation in group and individual work in tutorials and lectures. Discussion
 ## Exam 
 The exam is a 2 hour online exam and comprises:
 - 20 multiple choice questions, and
-- 2 long form questions 
+- 2 long form questions (out of a choice of 3)
 
 ### Multiple choice component
 - The multiple choice component makes up 40% of the exam
@@ -24,10 +24,10 @@ The exam is a 2 hour online exam and comprises:
 - Questions are randomised and taken from a larger bank of questions
 
 ### Long form questions / written exam
-- There are 3 long form questions, with written answers
+- There are 3 long form questions
 - You are expected to select and answer 2 of the 3 questions
 - Each question accounts for 30% of the exam (30 marks maximum per question)
-- A good way to prepare your answer for the long form question is to prepare it in your favourite text editing software and copy-paste in when you have your ready 
+- A good way to prepare your answer for the long form question is to prepare it in your favourite text editing software and copy-paste in when you have your answer ready 
 
 ### Exam date and time
 The exam date and time will be announced and here and on ELE, when the exam date is confirmed. This is usually after the first few weeks of the module. \
