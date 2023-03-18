@@ -30,10 +30,11 @@ The exam is a 2 hour online exam and comprises:
 - A good way to prepare your answer for the long form question is to prepare it in your favourite text editing software and copy-paste in when you have your answer ready 
 
 ### Exam date and time
-The exam date and time will be announced and here and on ELE, when the exam date is confirmed. This is usually after the first few weeks of the module. \
-Additional information will also be provided closer to the exam time, such as example exam style questions, how to access the exam, and over what time period it is available to begin. \
-**Exams for the 2023 Spring Semester are usually in May**
-> Note: the examination for this module is online 
+The exam date is **10 / 05 / 2023 (10 May)**.
+- The exam is splot into two parts
+- The MCQ exam will be an ELE timed quiz, that will start at 9.30 and last for 40 minutes
+- The written exam will start at 11.00 and last for 1 hour and 20 minutes
+- Both exams are online 
 
 ## Group project 
 The group project is the development and presentation of a smart contract.
@@ -41,12 +42,13 @@ The group project is the development and presentation of a smart contract.
 - It is a 15 minute in person group presentation, including questions (10 minutes for presentation and 5 for questions)
 - You will also record and uploaded your presentation for quality checking
 - You will be assessed on the development of your smart contract, as well as the quality of your presentation and your response to questions
-- You must ensure you stick to the maximum 15 minute time limit
-- A formal criteria sheet will be made available after the start of the module, which will make up your feedback sheet
+- You must ensure you stick to the maximum 10 minute time limit for the presentation
+- A formal criteria sheet is made available, which will make up your feedback sheet
 - The deadline for the completion of the group project will be the end of Week 11
+- The deadline for submitting your group presentation is 7 April at 12.00 midday
 
 ### Finding and assigning groups
-- Students will work in groups up to a maximum of 6
+- Students will work in groups up to a maximum of 6 (some will be slightly more)
 - Group sign up will begin after Week 3 (Friday 3 Feb)
 - You are allowed to select your own group members, and a sign up form will be provided
 - Those who have not found a group by the end of Week 4 (Friday 10 Feb) will be assigned a group by the module leader
@@ -122,8 +124,8 @@ You will be assessed on how well you explain and put across the smart contract i
 This page: https://www.durham.ac.uk/media/durham-university/departments-/common-awards/documents/assessment-documents/guidance-documents/Assessment-Guidelines_Oral-Presentations.pdf, from Durham University, also provides some good information for creating a presentation. 
 
 ### Uploading your presentation
-- After you deliver your presentation you will be expected to record and deliver your presentation by the following Friday, to BART.
-- You will upload a pdf on your presentation slides, including a link to your presentation which can be stored in one-drive.
+- After you deliver your presentation you will be expected to record and deliver your presentation by the following Friday, 7 April, to BART.
+- You will upload a pdf on your presentation slides, including a link to your recorded video presentation which can be stored in one-drive.
 - You may make small changes to your presentation based on the feedback you receive in Week 11.
 - In case you make changes, you must record this on a supplementary slide page at the end of your presentation. If you don't, you can use this to comment on the feedback you received.
 
