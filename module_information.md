@@ -5,7 +5,7 @@
 | Module code:   | BEEM161 | 
 | Module level:	 | M |
 | Academic year: |	2022/3 |
-| Module lecturers:	| Dr Christopher Carr|
+| Module leader:	| Dr Christopher Carr|
 | Module credit: |	15 |
 | ECTS value:	| 7.5 |
 | Pre-requisites:	| BEEM061 |
@@ -59,7 +59,8 @@ For the 129 independent study hours, you are expected to complete the homework *
 This module will have guest lectures, both in person and online. In the event that a lecture is online, information will be provided in advance. Guest lectures are announced on the <a href="https://vle.exeter.ac.uk/course/view.php?id=14438" >Timetable accesable via ELE. </a>
 	
 ## Online provision
-The module is run on a face-to-face basis, and there is **no available provision** for online learners. However, in order to make it as easy for the students as possible, lecture notes, and recordings are made available online after the lecture. Material for the tutorial is also available, however tutorials are not recorded for student privacy reasons. \
+The module is run on a face-to-face basis, and there is **no available provision** for online learners. However, in order to make it as easy for the students as possible, lecture slides, and recordings are made available online after the lecture. Material for the tutorial is also available, however tutorials are not recorded for student privacy reasons.
+
 There may be occasions where the tutorials or lectures are online, instead of in-person. In this case, you will be informed in advance. 
 	
 ## Recordings
@@ -78,8 +79,6 @@ We will mostly be using REMIX-IDE, and online Integrated Development Environment
 
 # Assessment overview
 
-In depth assessment details are described in the assessment section <a href="/assessment_information.md"> here. </a>
-
 The assessment, both formative and summative assesses all ILOs as described above. 
 
 ### Formative assessment
@@ -89,42 +88,7 @@ Participation in group and individual work in tutorials and lectures. Discussion
 - **70% exam**, with multiple choice questions and a written component
 - **30% group work project**, focusing on building a smart contract, deploying it, and explaining your smart contract in the presentation
 
-
-## Exam 
-The exam is a 2 hour online exam and comprises:
-- 20 multiple choice questions, and
-- 2 long form questions 
-
-### Multiple choice component
-- The multiple choice component makes up 40% of the exam
-- There will be a choice of 4 answers for each question
-- There are 40 marks available in total
-- A correct answer will award 2 marks
-- An incorrect answer will remove 1 mark (be aware of the negative marking)
-- A blank answer will award 0 marks
-- Questions are randomised and taken from a larger bank of questions
-
-### Long form questions 
-- There are 2 long form questions, with written answers
-- Each question accounts for 30% of the exam (30 marks maximum per question)
-- A good way to prepare your answer for the long form question is to prepare it in your favourite text editing software and copy-paste in when you have your ready 
-
-### Exam date and time
-The exam date and time will be announced after the first few weeks of the module. \
-Additional information will also be provided after module start, such as the how to access the exam, and over what period it is available to begin. 
-> Note: the examination for this module is online 
-
-
-## Group project 
-The group project is the development and presentation of a smart contract.
-- The group project accounts for 30% of your final grade	
-- It is a 15 minute in person group presentation, including questions
-- You will also record and uploaded your presentation for quality checking
-- You will be assessed on the development of your smart contract, as well as the quality of your presentation and your response to questions
-- You must ensure you stick to the 15 minute time limit
-- A formal criteria sheet will be made available after the start of the module, which will make up your feedback sheet
-
-
+Full assessment details are described in the assessment section <a href="/assessment_information.md"> here. </a>
 
 
 # Syllabus overview, and material covered 
