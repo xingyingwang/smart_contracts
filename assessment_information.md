@@ -117,7 +117,7 @@ A PowePoint template is available on the <a href="https://vle.exeter.ac.uk/cours
 |                           | Informative                      |                    |
 |                           | Explanation of feedback and changes  |                |
 |             ---           |             ---                  |        ---         |
-|    Bonus                  | Well written explanation of question |  5             |
+|    Bonus                  | Well written explanation of questions |  5             |
             
 You will be assessed on how well you explain and put across the smart contract idea / platform, that you have decided to create. You will have to show what you have made, even if it is just some example code working on remix, to a graphical interface deployed on a blockchain. 
   
