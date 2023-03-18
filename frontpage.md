@@ -45,6 +45,7 @@ For this week, the focus should be on:
 - Take a well deserved break to reset yourself for the remaining 5 weeks of the module.
 
 ## Week 7 to 11
+Lecture slides, guest lecture slides and recordings available on <a href="https://vle.exeter.ac.uk/course/view.php?id=14438"> ELE</a>.
 
 ## Group project deadlines
 - Friday 31 March, Week 11: In person group presentation.
@@ -52,3 +53,4 @@ For this week, the focus should be on:
 
 ## Exam date
 The exam will be 10 May, split into two parts, with a written question part and a multiple choice part. 
+See the assessment information page for details: https://github.com/ca-carr/smart_contracts/blob/main/assessment_information.md
