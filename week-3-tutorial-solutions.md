@@ -1,3 +1,4 @@
+<!-- 
 ### Full tutorial solutions provided on Tuesday 7 Feb
 
 ## Part 0: Representing numbers
@@ -209,3 +210,4 @@ Consider the altered transaction from 3.3, what is this extra information on Lin
 ```
 
 This extra information is the signature on the script, it is one of the inputs taken by the op_checksig command. This returns true, and so the transaction script is valid. 
+-->
