@@ -1,5 +1,4 @@
 # Seminar 1 (released on 24/01/24 at 17:30)
-<!--
 This is the first seminar for the Smart Contract module.
 - To complete this seminar, you may need to consult the lecture material and the related reading. 
 - You are expected to be able to complete it on your own, though you may work with people around you, and in some parts you may need to.
@@ -327,7 +326,7 @@ Now we are going to generate our own key-pair and share it (you will need to wor
   * How is this different from the message signature aspect. 
 
 -->
-<!--
+
 
 ---
 
