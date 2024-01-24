@@ -1,4 +1,4 @@
-# Tutorial 1 (released on 24/01/24 at 17:30)
+# Seminar 1 (released on 24/01/24 at 17:30)
 <!-- 
 This is the first seminar for the Smart Contract module.
 - To complete this seminar, you may need to consult the lecture material and the related reading. 
