@@ -4,7 +4,7 @@
 | Module Title:  | Smart Contracts | 
 | Module code:   | BEEM161 | 
 | Module level:	 | M |
-| Academic year: |	2022/3 |
+| Academic year: | Began 2022/23, running 2024 |
 | Module leader:	| Dr Christopher Carr|
 | Module credit: |	15 |
 | ECTS value:	| 7.5 |
