@@ -20,15 +20,17 @@ This is the first seminar for the Smart Contract module.
 | | | 435   |
 
 * 0.A-2) Identify the following binary, decimal and hexadecimal strings and convert them to all other bases:
-- 0x09
-- 0Xaf93Bfc4
-- 2
-- 0x00000078
-- 0000000010110111011
+	- 0x09
+	- 0Xaf93Bfc4
+	- 2
+	- 0x00000078
+	- 0000000010110111011
 
 * 0.B) Using the website block explorer https://blockchair.com/bitcoin/, take a look the latest block in Bitcoin. Select the hex string that is the block's header. Using whatever tools you prefer, convert this block header to binary and decimal. 
 
 * 0.C) Do the same for question 0.B, for the genesis block in Bitcoin, (You may use https://blockchair.com/bitcoin/). How do the numbers compare between 0.B and 0.C? Why are the numbers so different?
+
+* 0.D) Take a look at a recent transaction in Bitcoin, and compare that with one in Ethereum. What can you say about the transaction in either network? Does the start of the tranaction in Bitcoin have any number of zeros? If not, why not?
 
 ---
 ## Part 1: Hash functions
