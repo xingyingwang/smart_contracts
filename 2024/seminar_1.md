@@ -1,15 +1,15 @@
-# Tutorial 1 (released on 24/01/24 at 17:35)
+# Tutorial 1 (released on 24/01/24 at 17:30)
 <!-- 
-This is the first tutorial for the Smart Contract module.
-- To complete this tutorial, you can consult the first three weeks of lecture material. 
-- You are expected to be able to complete this tutorial on your own, though you may work with people around you, and in some parts you need to.
-- Aspects of the work we will do in this tutorial are related to the exam assessment.
+This is the first seminar for the Smart Contract module.
+- To complete this seminar, you may need to consult the lecture material and the related reading. 
+- You are expected to be able to complete it on your own, though you may work with people around you, and in some parts you may need to.
+- Aspects of the work we will do in this seminar are related to the exam assessment.
 - Don't be afraid to ask for help!
 
 ---
 ## Part 0: Representing numbers
 
-* 0.A) Complete the table from Week 2
+* 0.A) Complete the table from Week 2 by hand
 
 
 | Binary | Hex | Decimal |
@@ -19,10 +19,16 @@ This is the first tutorial for the Smart Contract module.
 | | 0xA7 |  | 
 | | | 435   |
 
+* 0.A-2) Identify the following binary, decimal and hexadecimal strings and convert them to all other bases:
+- 0x09
+- 0Xaf93Bfc4
+- 2
+- 0x00000078
+- 0000000010110111011
 
-* 0.B) Using the website block explorer https://blockchair.com/bitcoin/, take a look the latest block in Bitcoin. Select the hex string that is the block's header. Using whatever tools you like, convert this block header to binary and decimal. 
+* 0.B) Using the website block explorer https://blockchair.com/bitcoin/, take a look the latest block in Bitcoin. Select the hex string that is the block's header. Using whatever tools you prefer, convert this block header to binary and decimal. 
 
-* 0.C) Do the same for 0.B, as for block number 1 in Bitcoin, using https://blockchair.com/bitcoin/. How do the numbers compare between 0.B and 0.C? Why is this?
+* 0.C) Do the same for question 0.B, for the genesis block in Bitcoin, (You may use https://blockchair.com/bitcoin/). How do the numbers compare between 0.B and 0.C? Why are the numbers so different?
 
 ---
 ## Part 1: Hash functions
