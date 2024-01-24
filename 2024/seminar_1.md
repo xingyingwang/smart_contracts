@@ -1,5 +1,5 @@
 # Seminar 1 (released on 24/01/24 at 17:30)
-
+<!--
 This is the first seminar for the Smart Contract module.
 - To complete this seminar, you may need to consult the lecture material and the related reading. 
 - You are expected to be able to complete it on your own, though you may work with people around you, and in some parts you may need to.
@@ -297,14 +297,13 @@ discontent upon his features.
 ---
 ## Part 2 Digital Signatures and Encryption
 
-We are now going to take a deeper dive into digital signatures and encryption.
+We are now going to take a deeper dive into digital signatures and encryption. We will complete this part after the lecture in Week 3. 
 
 ### 2.1:
 
-Take a look at the shared module document on ELE, in Row 2, columns E, F, G, H, I.
-
 Using the software tool Kleopatra from https://gpg4win.org/download.html, or whichever tool you prefer, complete the following: 
 
+<!--
 * 1.A) Import the public key
 * 1.B) Check the public key and the fingerprint, what is the process, what is the fingerprint?
 * 1.C) Verify the signatures of the messages in G, and H. 
@@ -318,13 +317,15 @@ Using the software tool Kleopatra from https://gpg4win.org/download.html, or whi
 Now we are going to generate our own key-pair and share it (you will need to work with someone to do this task)
 
 * 2.A) Generate a key pair
-* 2.B) Export the public key, and share it on the shared module document under column E, and share your key fingerprint under column F on the module document that can be found on ELE
-* 2.C) Sign a message -- it can be anything you want (keep it acceptable!) -- and publish the signed message under column G, have a colleague verify your message
-* 2.D) Encrypt a message to a colleague of your choice -- it can be anything you want (keep it acceptable!) -- and answer the questions:
+* 2.B) Export your public key, and share it, along with your key fingerprint with your colleagues:
+	* what does this process do? 
+* 2.C) Sign a message --- the message can be anything you want -- and publish the signed message. Have a colleague verify your message
+* 2.D) Encrypt a message to a colleague of your choice -- it can be anything you want -- and answer the questions:
   * What process do you have to take to encrypt the message?
   * How is this different from the message signature aspect. 
 
-
+-->
+<!--
 
 ---
 
@@ -387,8 +388,9 @@ bcb8275028ae2e4dd1d2b45
 * 3.B) write down what each text string represents at lines 1 and 4.
 * 3.C) Write down what each function does at lines 2, 3, 5 and 6. 
 * 3.D) Is this script valid? If not, why not? 
-* 3.E) What would happen if we changed line 4 to `2CB3A540E8CF726A3D563D7A0F350724FCDB34FC`, does the script now execute correctly? If not, why not? 
+* 3.E) What would happen if we changed line 4 to `2CB3A540E8CF726A3D563D7A0F350724FCDB34FC`, does the script now execute correctly? If not, why not?
 
 -->
+
 
 
