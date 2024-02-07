@@ -19,13 +19,14 @@ This is the first seminar for the Smart Contract module.
 |110110011 | 0x1b3| 435  |
 
 * 0.A-2) Identify the following binary, decimal and hexadecimal strings and convert them to all other bases:
-	- 0x09
-	- 0Xaf93Bfc4
-	- 2
-	- 0x00000078
-	- 0000000010110111011
+	- 0x09 | 1001 | 9 
+	- 0Xaf93Bfc4 | 10101111100100111011111111000100 | 2945695684
+	- 2 | 10 | 0x2
+	- 0x00000078 | 1111000 | 120
+	- 0000000010110111011 | 0x25a9c0d23 | 10110111011
 
-* 0.B) Using the website block explorer https://blockchair.com/bitcoin/, take a look the latest block in Bitcoin. Select the hex string that is the block's header. Using whatever tools you prefer, convert this block header to binary and decimal. 
+* 0.B) Using the website block explorer https://blockchair.com/bitcoin/, take a look the latest block in Bitcoin. Select the hex string that is the block's header. Using whatever tools you prefer, convert this block header to binary and decimal.
+* Answer: 0x000000000000000000019c871e47f1e2bf375873cd3aa0f70f65182b79dcc078 |110011100100001110001111001000111111100011110001010111111001101110101100001110011110011010011101010100000111101110000111101100101000110000010101101111001110111001100000001111000 |154344976287751917187992414644062493193852867860807800
 
 * 0.C) Do the same for question 0.B, for the genesis block in Bitcoin, (You may use https://blockchair.com/bitcoin/). How do the numbers compare between 0.B and 0.C? Why are the numbers so different?
 
