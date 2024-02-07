@@ -13,10 +13,10 @@ This is the first seminar for the Smart Contract module.
 
 | Binary | Hex | Decimal |
 | ------ | ----- | ------ |
-| 11111111 |  |   |
-| 11110000 |  |   |
-| | 0xA7 |  | 
-| | | 435   |
+| 11111111 | 0xff | 255  |
+| 11110000 | 0xf0 | 240  |
+| 10100111 | 0xA7 | 167  | 
+|110110011 | 0x1b3| 435  |
 
 * 0.A-2) Identify the following binary, decimal and hexadecimal strings and convert them to all other bases:
 	- 0x09
