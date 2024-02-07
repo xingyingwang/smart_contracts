@@ -13,23 +13,33 @@ This is the first seminar for the Smart Contract module.
 
 | Binary | Hex | Decimal |
 | ------ | ----- | ------ |
-| 11111111 |  |   |
-| 11110000 |  |   |
-| | 0xA7 |  | 
-| | | 435   |
+| 11111111 | 0xff | 255  |
+| 11110000 | 0xf0 | 240  |
+| 10100111 | 0xA7 | 167  | 
+|110110011 | 0x1b3| 435  |
 
 * 0.A-2) Identify the following binary, decimal and hexadecimal strings and convert them to all other bases:
-	- 0x09
-	- 0Xaf93Bfc4
-	- 2
-	- 0x00000078
-	- 0000000010110111011
+	- 0x09 | 1001 | 9 
+	- 0Xaf93Bfc4 | 10101111100100111011111111000100 | 2945695684
+	- 2 | 10 | 0x2
+	- 0x00000078 | 1111000 | 120
+	- 0000000010110111011 | 0x25a9c0d23 | 10110111011
 
 * 0.B) Using the website block explorer https://blockchair.com/bitcoin/, take a look the latest block in Bitcoin. Select the hex string that is the block's header. Using whatever tools you prefer, convert this block header to binary and decimal. 
 
+Answer: 0x000000000000000000019c871e47f1e2bf375873cd3aa0f70f65182b79dcc078 | 110011100100001110001111001000111111100011110001010111111001101110101100001110011110011010011101010100000111101110000111101100101000110000010101101111001110111001100000001111000 | 154344976287751917187992414644062493193852867860807800
+
+
 * 0.C) Do the same for question 0.B, for the genesis block in Bitcoin, (You may use https://blockchair.com/bitcoin/). How do the numbers compare between 0.B and 0.C? Why are the numbers so different?
 
-* 0.D) Take a look at a recent transaction in Bitcoin, and compare that with one in Ethereum. What can you say about the transaction in either network? Does the start of the tranaction in Bitcoin have any number of zeros? If not, why not?
+Answer: 0x4c3ab89a14509f206e2c3d74fbb9c161a380e3b7 | 100110000111010101110001001101000010100010100001001111100100000011011100010110000111101011101001111101110111001110000010110000110100011100000001110001110110111 | 435192822895225700830740477308800438889533727671
+The size of genesis block is fixed at 1MB, the latest block contains more transaction data, thus it will be more bigger than the genesis block.
+
+
+* 0.D) Take a look at a recent transaction in Bitcoin, and compare that with one in Ethereum. What can you say about the transaction in either network? Does the start of the transaction in Bitcoin have any number of zeros? If not, why not?
+
+Answer: Bitcoin use Proof of Work mechanism where hash value must satisfy certain difficulty, and the number of the leading zeros of hash value determines the difficulty. Ethereum use Proof of Stake mechanism,which determines the leading zeros of hash value will not affect the initial part of the transaction.
+
 
 ---
 ## Part 1: Hash functions
@@ -103,6 +113,7 @@ bloodstains upon the sill gave little promise that he could save himself
 by swimming, for the tide was at its very highest at the moment of the 
 tragedy.
 ```
+Answer: Hash function —— bab46736 4fb5e843 de5f8dfb a43d29ba 5636e461 b8cf2b3f d58f2336 98f9664b
 
 
 
@@ -149,6 +160,7 @@ ABBA. Altogether, look as I would, there was nothing remarkable
 about the man save his blazing red head, and the expression of extreme 
 chagrin and discontent upon his features.
 ```
+Answer: Hash function —— 9a2e8c9b 443ca8bd 942dcffa 3d571e10 e5878581 a547532e b7b86fc2 7473568b
 
 C)
 ```
@@ -206,7 +218,7 @@ bloodstains upon the sill gave little promise that he could save himself
 by swimming, for the tide was at its very highest at the moment of the 
 tragedy.
 ```
-
+Answer: Hash function —— e882201c 638db586 73eb92ea 7e25707d e6d2a126 12518783 16b46880 96f08e20
 
 
 D)
@@ -251,6 +263,8 @@ Altogether, look as I would, there was nothing remarkable about the man
 save his blazing red head, and the expression of extreme chagrin and 
 discontent upon his features.
 ````
+Answer: Hash function —— 6a61797d 3bf0dbaf e7095980 62b063fb d65ab277 eb94079a 04d46d41 9d90ed01
+
 
 E)
 ```
@@ -294,6 +308,9 @@ Altogether, look as I would, there was nothing remarkable about the man
 save his blazing red head, and the expression of extreme chagrin and 
 discontent upon his features.
 ````
+Answer: Hash function —— f3271035 3e14461a cf9644e8 b3890e10 1e6b04df fcb22a94 dc0aa3f7 d926955e
+
+
 
 ---
 ## Part 2 Digital Signatures and Encryption
@@ -386,9 +403,23 @@ bcb8275028ae2e4dd1d2b45
 ```
 
 * 3.A) What is this kind of script usually called? 
+1.标准比特币脚本，pay-to-public-keyhash(P2PKH)脚本，通常用于比特币交易，将资金从一个地址发送到另一个地址。
+Public key signature：由两个代表签名的32字节值(r s值)组成
+
 * 3.B) write down what each text string represents at lines 1 and 4.
+line1：digital signature
+line4：the public key corresponding to the private key used to generate the signature
+
 * 3.C) Write down what each function does at lines 2, 3, 5 and 6. 
+操作码：
+①op_dup：复制最上面的堆栈项目
+②op_hash160：计算顶层堆栈项的RIPEMD-160哈希值
+③op_equalverify：比较最上面的两个堆栈项。如果它们相等，则继续执行;否则终止
+④op_checksig：使用公钥和事务数据的散列来验证签名
+
 * 3.D) Is this script valid? If not, why not? 
+No,the script is missing scriptPubKey (locking script) and scriptSig (unlocking script) components.
+
 * 3.E) What would happen if we changed line 4 to `2CB3A540E8CF726A3D563D7A0F350724FCDB34FC`, does the script now execute correctly? If not, why not?
 
 
