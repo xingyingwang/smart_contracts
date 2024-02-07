@@ -316,7 +316,7 @@ We are now going to take a deeper dive into digital signatures and encryption. W
 
 Using the software tool Kleopatra from https://gpg4win.org/download.html, or whichever tool you prefer, complete the following: 
 
-<!--
+
 * 1.A) Import the public key
 * 1.B) Check the public key and the fingerprint, what is the process, what is the fingerprint?
 * 1.C) Verify the signatures of the messages in G, and H. 
@@ -337,7 +337,7 @@ Now we are going to generate our own key-pair and share it (you will need to wor
   * What process do you have to take to encrypt the message?
   * How is this different from the message signature aspect. 
 
--->
+
 
 
 ---
