@@ -337,7 +337,9 @@ Now we are going to generate our own key-pair and share it (you will need to wor
   * What process do you have to take to encrypt the message?
   * How is this different from the message signature aspect. 
 
+### 2.3:
 
+Using your knowledge from part 2.1 and 2.2, sign and encrypt a message (anything you want) to billy@bad.key.management.beem161, (note that you will first have to ensure you have imported their public-key). What are immediate security concerns with this process? Can anyone other than Billy read your message?
 
 
 ---
