@@ -26,14 +26,14 @@ This is the first seminar for the Smart Contract module.
 	- 0000000010110111011 | 0x25a9c0d23 | 10110111011
 
 * 0.B) Using the website block explorer https://blockchair.com/bitcoin/, take a look the latest block in Bitcoin. Select the hex string that is the block's header. Using whatever tools you prefer, convert this block header to binary and decimal.
-Answer: 0x000000000000000000019c871e47f1e2bf375873cd3aa0f70f65182b79dcc078 |110011100100001110001111001000111111100011110001010111111001101110101100001110011110011010011101010100000111101110000111101100101000110000010101101111001110111001100000001111000 |154344976287751917187992414644062493193852867860807800
+* Answer: 0x000000000000000000019c871e47f1e2bf375873cd3aa0f70f65182b79dcc078 |110011100100001110001111001000111111100011110001010111111001101110101100001110011110011010011101010100000111101110000111101100101000110000010101101111001110111001100000001111000 |154344976287751917187992414644062493193852867860807800
 
 * 0.C) Do the same for question 0.B, for the genesis block in Bitcoin, (You may use https://blockchair.com/bitcoin/). How do the numbers compare between 0.B and 0.C? Why are the numbers so different?
-Answer: 0x4c3ab89a14509f206e2c3d74fbb9c161a380e3b7 |100110000111010101110001001101000010100010100001001111100100000011011100010110000111101011101001111101110111001110000010110000110100011100000001110001110110111 |435192822895225700830740477308800438889533727671
+* Answer: 0x4c3ab89a14509f206e2c3d74fbb9c161a380e3b7 |100110000111010101110001001101000010100010100001001111100100000011011100010110000111101011101001111101110111001110000010110000110100011100000001110001110110111 |435192822895225700830740477308800438889533727671
 The size of genesis block is fixed at 1MB, the latest block contains more transaction data, thus it will be more bigger than the genesis block.
 
 * 0.D) Take a look at a recent transaction in Bitcoin, and compare that with one in Ethereum. What can you say about the transaction in either network? Does the start of the tranaction in Bitcoin have any number of zeros? If not, why not?
-Answer: Bitcoin use Proof of Work mechanism where hash value must satisfy certain difficulty, and the number of the leading zeros of hash value determines the difficulty. Ethereum use Proof of Stake mechanism,which determines the leading zeros of hash value will not affect the initial part of the transaction.
+* Answer: Bitcoin use Proof of Work mechanism where hash value must satisfy certain difficulty, and the number of the leading zeros of hash value determines the difficulty. Ethereum use Proof of Stake mechanism,which determines the leading zeros of hash value will not affect the initial part of the transaction.
 比特币使用工作量证明机制，哈希值必须满足一定的难度，哈希值前导零的个数决定了难度。以太坊使用权益证明机制，该机制确定哈希值的前导零不会影响交易的初始部分。
 
 ---
