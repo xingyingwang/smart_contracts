@@ -319,7 +319,9 @@ We are now going to take a deeper dive into digital signatures and encryption. W
 
 ### 2.1:
 
-Using the software tool Kleopatra from https://gpg4win.org/download.html, or whichever tool you prefer, complete the following: 
+Using the software tool Kleopatra for Windows from https://gpg4win.org/download.html or GPG Suite for MAC https://gpgtools.org/, or whichever tool you prefer, complete the following:
+
+Open the google sheet here: https://docs.google.com/spreadsheets/d/1XOUDAe3aG9kBYQocg5VqfUnRYSLQHAlS9-SbR5SVMKw/edit#gid=0 and select the tab: Sheet-A.
 
 <!--
 * 1.A) Import the public key
@@ -328,12 +330,13 @@ Using the software tool Kleopatra from https://gpg4win.org/download.html, or whi
   * What does each message say?
   * Are they both valid messages?
 * 1.D) Try to decrypt the message in column I. What problems do you encounter and why?
-
+-->
 
 ### 2.2:
 
 Now we are going to generate our own key-pair and share it (you will need to work with someone to do this task)
 
+<!--
 * 2.A) Generate a key pair
 * 2.B) Export your public key, and share it, along with your key fingerprint with your colleagues:
 	* what does this process do? 
